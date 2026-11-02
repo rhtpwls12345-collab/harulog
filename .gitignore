@@ -1,0 +1,32 @@
+# 의존성·빌드 결과
+node_modules/
+www/
+pc-test.html
+android/app/build/
+android/build/
+android/.gradle/
+android/local.properties
+android/app/release/
+
+# 테스트 스크린샷·임시 파일
+test/*.png
+www/_acct-test.html
+
+# 비밀 정보 (절대 올리지 않기)
+.env
+.env.*
+*.pem
+*.key
+*.jks
+*.keystore
+google-services.json
+supabase/.temp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 지울 파일 모아두는 곳
+_to_delete/
+__pycache__/
+*.pyc

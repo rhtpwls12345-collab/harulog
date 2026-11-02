@@ -1,0 +1,21 @@
+{
+  "name": "harulog-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "하루로그 Android 앱 (Capacitor)",
+  "scripts": {
+    "build": "node scripts/build-www.mjs",
+    "sync": "npm run build && cap sync android",
+    "open": "cap open android",
+    "run": "npm run build && cap run android"
+  },
+  "dependencies": {
+    "@capacitor/android": "8.5.3",
+    "@capacitor/core": "8.5.3",
+    "@capacitor/geolocation": "8.2.4",
+    "@capgo/capacitor-health": "8.11.12"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3"
+  }
+}

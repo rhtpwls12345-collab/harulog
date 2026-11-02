@@ -1,0 +1,11 @@
+{
+  "appId": "com.harulog.app",
+  "appName": "하루로그",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "SystemBars": { "insetsHandling": "css" }
+  }
+}

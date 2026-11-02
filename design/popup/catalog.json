@@ -1,0 +1,1584 @@
+{
+ "version": "popup-1.0",
+ "coords": "가구: 왼쪽 위 (0,0) · 건물 안 배치: 224 기준 좌표(+cx=(건물폭-224)/2) · 외관: 건물 로컬 좌표(0,0 = 뒷벽 왼쪽 위)",
+ "popupBuildings": {
+  "clinic": {
+   "label": "병원",
+   "defaultSize": "m",
+   "sizes": [
+    "m",
+    "l"
+   ],
+   "wall": {
+    "wall": "#E8F3F1",
+    "line": "#D3E8E4",
+    "sign": "#3E9C8C"
+   },
+   "wallAlt": "#F4EEF6",
+   "floor": "clinic",
+   "sign": {
+    "svg": "exterior/clinic-sign.svg",
+    "anchor": "건물 로컬 좌표, 뒷벽 위 가운데에 서 있는 간판(-26 ≤ y ≤ -4)"
+   },
+   "entrance": {
+    "svg": "exterior/clinic-entrance.svg",
+    "anchor": "건물 로컬 좌표, 문 앞(y > 건물 높이)"
+   },
+   "wallDecor": {
+    "svg": "exterior/clinic-walldecor.svg",
+    "anchor": "224 기준 실내 좌표(뒷벽)"
+   },
+   "rooms": {
+    "items": [
+     {
+      "k": "medshelf",
+      "x": 182,
+      "y": 4
+     },
+     {
+      "k": "reception",
+      "x": 10,
+      "y": 40
+     },
+     {
+      "k": "waiting",
+      "x": 12,
+      "y": 100
+     },
+     {
+      "k": "consultdesk",
+      "x": 124,
+      "y": 44
+     },
+     {
+      "k": "curtain",
+      "x": 168,
+      "y": 50
+     },
+     {
+      "k": "exambed",
+      "x": 170,
+      "y": 58
+     },
+     {
+      "k": "scale",
+      "x": 66,
+      "y": 44
+     },
+     {
+      "k": "ivstand",
+      "x": 212,
+      "y": 72
+     }
+    ]
+   },
+   "spot": {
+    "x": 136,
+    "y": 78,
+    "pose": "sit",
+    "dir": "right",
+    "note": "진료 의자(진료 책상 앞)"
+   },
+   "reference": {
+    "m": "buildings/clinic-m.svg",
+    "l": "buildings/clinic-l.svg"
+   }
+  },
+  "cinema": {
+   "label": "영화관",
+   "defaultSize": "m",
+   "sizes": [
+    "m",
+    "l"
+   ],
+   "wall": {
+    "wall": "#3B2F3E",
+    "line": "#4A3A4E",
+    "sign": "#C9364B"
+   },
+   "wallAlt": "#2E3448",
+   "floor": "carpet",
+   "sign": {
+    "svg": "exterior/cinema-sign.svg",
+    "anchor": "건물 로컬 좌표, 뒷벽 위 가운데에 서 있는 간판(-26 ≤ y ≤ -4)"
+   },
+   "entrance": {
+    "svg": "exterior/cinema-entrance.svg",
+    "anchor": "건물 로컬 좌표, 문 앞(y > 건물 높이)"
+   },
+   "wallDecor": {
+    "svg": "exterior/cinema-walldecor.svg",
+    "anchor": "224 기준 실내 좌표(뒷벽)"
+   },
+   "rooms": {
+    "items": [
+     {
+      "k": "seatrow",
+      "x": 64,
+      "y": 52
+     },
+     {
+      "k": "seatrow",
+      "x": 64,
+      "y": 76
+     },
+     {
+      "k": "seatrow",
+      "x": 64,
+      "y": 100
+     },
+     {
+      "k": "aisle",
+      "x": 46,
+      "y": 44
+     },
+     {
+      "k": "ticket",
+      "x": 8,
+      "y": 96
+     },
+     {
+      "k": "popcorn",
+      "x": 196,
+      "y": 92
+     },
+     {
+      "k": "popcorn",
+      "x": 172,
+      "y": 92
+     }
+    ]
+   },
+   "spot": {
+    "x": 108,
+    "y": 66,
+    "pose": "sit",
+    "dir": "up",
+    "note": "두 번째 줄 가운데 좌석, 뒷모습으로 스크린 보기"
+   },
+   "reference": {
+    "m": "buildings/cinema-m.svg",
+    "l": "buildings/cinema-l.svg"
+   }
+  },
+  "library": {
+   "label": "도서관",
+   "defaultSize": "m",
+   "sizes": [
+    "m",
+    "l"
+   ],
+   "wall": {
+    "wall": "#EFE4CF",
+    "line": "#E2D2B4",
+    "sign": "#7A5A42"
+   },
+   "wallAlt": "#E3EBDD",
+   "floor": "wood",
+   "sign": {
+    "svg": "exterior/library-sign.svg",
+    "anchor": "건물 로컬 좌표, 뒷벽 위 가운데에 서 있는 간판(-26 ≤ y ≤ -4)"
+   },
+   "entrance": {
+    "svg": "exterior/library-entrance.svg",
+    "anchor": "건물 로컬 좌표, 문 앞(y > 건물 높이)"
+   },
+   "wallDecor": {
+    "svg": "exterior/library-walldecor.svg",
+    "anchor": "224 기준 실내 좌표(뒷벽)"
+   },
+   "rooms": {
+    "items": [
+     {
+      "k": "tallshelf",
+      "x": 6,
+      "y": 4
+     },
+     {
+      "k": "tallshelf",
+      "x": 48,
+      "y": 4
+     },
+     {
+      "k": "magazine",
+      "x": 132,
+      "y": 8
+     },
+     {
+      "k": "readdesk",
+      "x": 70,
+      "y": 64
+     },
+     {
+      "k": "readdesk",
+      "x": 130,
+      "y": 64
+     },
+     {
+      "k": "loandesk",
+      "x": 10,
+      "y": 102
+     },
+     {
+      "k": "beanbag",
+      "x": 190,
+      "y": 100
+     },
+     {
+      "k": "globe",
+      "x": 200,
+      "y": 58
+     }
+    ]
+   },
+   "spot": {
+    "x": 92,
+    "y": 72,
+    "pose": "read",
+    "dir": "down",
+    "note": "첫 열람 책상 의자"
+   },
+   "reference": {
+    "m": "buildings/library-m.svg",
+    "l": "buildings/library-l.svg"
+   }
+  },
+  "market": {
+   "label": "마트",
+   "defaultSize": "m",
+   "sizes": [
+    "m",
+    "l"
+   ],
+   "wall": {
+    "wall": "#FFF4DE",
+    "line": "#F7E6C2",
+    "sign": "#E8793A"
+   },
+   "wallAlt": "#E9F4E3",
+   "floor": "tile",
+   "sign": {
+    "svg": "exterior/market-sign.svg",
+    "anchor": "건물 로컬 좌표, 뒷벽 위 가운데에 서 있는 간판(-26 ≤ y ≤ -4)"
+   },
+   "entrance": {
+    "svg": "exterior/market-entrance.svg",
+    "anchor": "건물 로컬 좌표, 문 앞(y > 건물 높이)"
+   },
+   "wallDecor": {
+    "svg": "exterior/market-walldecor.svg",
+    "anchor": "224 기준 실내 좌표(뒷벽)"
+   },
+   "rooms": {
+    "items": [
+     {
+      "k": "drinkfridge",
+      "x": 6,
+      "y": 4
+     },
+     {
+      "k": "snackshelf",
+      "x": 166,
+      "y": 4
+     },
+     {
+      "k": "produce",
+      "x": 60,
+      "y": 46
+     },
+     {
+      "k": "produce",
+      "x": 120,
+      "y": 46
+     },
+     {
+      "k": "checkout",
+      "x": 150,
+      "y": 102
+     },
+     {
+      "k": "cart",
+      "x": 20,
+      "y": 104
+     },
+     {
+      "k": "baskets",
+      "x": 108,
+      "y": 110
+     }
+    ]
+   },
+   "spot": {
+    "x": 86,
+    "y": 82,
+    "pose": "idle",
+    "dir": "up",
+    "note": "과일 진열대 앞 → 이후 계산대 앞(174,98)"
+   },
+   "reference": {
+    "m": "buildings/market-m.svg",
+    "l": "buildings/market-l.svg"
+   }
+  },
+  "salon": {
+   "label": "미용실",
+   "defaultSize": "m",
+   "sizes": [
+    "m",
+    "l"
+   ],
+   "wall": {
+    "wall": "#FBE4EA",
+    "line": "#F3D1DA",
+    "sign": "#C95B7E"
+   },
+   "wallAlt": "#E6ECF6",
+   "floor": "checker",
+   "sign": {
+    "svg": "exterior/salon-sign.svg",
+    "anchor": "건물 로컬 좌표, 뒷벽 위 가운데에 서 있는 간판(-26 ≤ y ≤ -4)"
+   },
+   "entrance": {
+    "svg": "exterior/salon-entrance.svg",
+    "anchor": "건물 로컬 좌표, 문 앞(y > 건물 높이)"
+   },
+   "wallDecor": {
+    "svg": "exterior/salon-walldecor.svg",
+    "anchor": "224 기준 실내 좌표(뒷벽)"
+   },
+   "rooms": {
+    "items": [
+     {
+      "k": "station",
+      "x": 10,
+      "y": 2
+     },
+     {
+      "k": "station",
+      "x": 46,
+      "y": 2
+     },
+     {
+      "k": "station",
+      "x": 82,
+      "y": 2
+     },
+     {
+      "k": "shampoo",
+      "x": 130,
+      "y": 40
+     },
+     {
+      "k": "waitsofa",
+      "x": 20,
+      "y": 106
+     },
+     {
+      "k": "dryer",
+      "x": 168,
+      "y": 48
+     },
+     {
+      "k": "trolley",
+      "x": 120,
+      "y": 96
+     },
+     {
+      "k": "dryer",
+      "x": 196,
+      "y": 48
+     }
+    ]
+   },
+   "spot": {
+    "x": 61,
+    "y": 44,
+    "pose": "sit",
+    "dir": "up",
+    "note": "가운데 미용 의자, 거울을 봄"
+   },
+   "reference": {
+    "m": "buildings/salon-m.svg",
+    "l": "buildings/salon-l.svg"
+   }
+  },
+  "office": {
+   "label": "은행·관공서",
+   "defaultSize": "m",
+   "sizes": [
+    "m",
+    "l"
+   ],
+   "wall": {
+    "wall": "#E4ECF4",
+    "line": "#D3DFEB",
+    "sign": "#3F6EA8"
+   },
+   "wallAlt": "#ECE8DF",
+   "floor": "modern",
+   "sign": {
+    "svg": "exterior/office-sign.svg",
+    "anchor": "건물 로컬 좌표, 뒷벽 위 가운데에 서 있는 간판(-26 ≤ y ≤ -4)"
+   },
+   "entrance": {
+    "svg": "exterior/office-entrance.svg",
+    "anchor": "건물 로컬 좌표, 문 앞(y > 건물 높이)"
+   },
+   "wallDecor": {
+    "svg": "exterior/office-walldecor.svg",
+    "anchor": "224 기준 실내 좌표(뒷벽)"
+   },
+   "rooms": {
+    "items": [
+     {
+      "k": "teller",
+      "x": 70,
+      "y": 30
+     },
+     {
+      "k": "ticketmachine",
+      "x": 14,
+      "y": 64
+     },
+     {
+      "k": "waitchairs",
+      "x": 70,
+      "y": 96
+     },
+     {
+      "k": "waitchairs",
+      "x": 124,
+      "y": 96
+     },
+     {
+      "k": "atm",
+      "x": 196,
+      "y": 46
+     },
+     {
+      "k": "infodesk",
+      "x": 12,
+      "y": 104
+     }
+    ]
+   },
+   "spot": {
+    "x": 115,
+    "y": 62,
+    "pose": "idle",
+    "dir": "up",
+    "note": "2번 창구 앞"
+   },
+   "reference": {
+    "m": "buildings/office-m.svg",
+    "l": "buildings/office-l.svg"
+   }
+  },
+  "stage": {
+   "label": "노래방·공연",
+   "defaultSize": "m",
+   "sizes": [
+    "m",
+    "l"
+   ],
+   "wall": {
+    "wall": "#2F2A45",
+    "line": "#3D3658",
+    "sign": "#8B5CD6"
+   },
+   "wallAlt": "#43233A",
+   "floor": "stagewood",
+   "sign": {
+    "svg": "exterior/stage-sign.svg",
+    "anchor": "건물 로컬 좌표, 뒷벽 위 가운데에 서 있는 간판(-26 ≤ y ≤ -4)"
+   },
+   "entrance": {
+    "svg": "exterior/stage-entrance.svg",
+    "anchor": "건물 로컬 좌표, 문 앞(y > 건물 높이)"
+   },
+   "wallDecor": {
+    "svg": "exterior/stage-walldecor.svg",
+    "anchor": "224 기준 실내 좌표(뒷벽)"
+   },
+   "rooms": {
+    "items": [
+     {
+      "k": "stage",
+      "x": 66,
+      "y": 18
+     },
+     {
+      "k": "mic",
+      "x": 106,
+      "y": 34
+     },
+     {
+      "k": "speaker",
+      "x": 62,
+      "y": 30
+     },
+     {
+      "k": "speaker",
+      "x": 148,
+      "y": 30
+     },
+     {
+      "k": "karaoke",
+      "x": 6,
+      "y": 74
+     },
+     {
+      "k": "audience",
+      "x": 82,
+      "y": 104
+     },
+     {
+      "k": "audience",
+      "x": 148,
+      "y": 104
+     }
+    ]
+   },
+   "spot": {
+    "x": 112,
+    "y": 54,
+    "pose": "talk",
+    "dir": "down",
+    "note": "무대 가운데 마이크 앞"
+   },
+   "reference": {
+    "m": "buildings/stage-m.svg",
+    "l": "buildings/stage-l.svg"
+   }
+  }
+ },
+ "furniture": {
+  "clinic": [
+   {
+    "key": "reception",
+    "label": "접수 데스크",
+    "footprint": [
+     44,
+     26
+    ],
+    "bbox": [
+     0,
+     0,
+     44.8,
+     29.8
+    ],
+    "solid": true,
+    "svg": "furniture/clinic/reception.svg",
+    "solidRect": [
+     0,
+     0,
+     44,
+     26
+    ]
+   },
+   {
+    "key": "waiting",
+    "label": "대기 의자",
+    "footprint": [
+     48,
+     22
+    ],
+    "bbox": [
+     0,
+     0,
+     48,
+     22
+    ],
+    "solid": true,
+    "svg": "furniture/clinic/waiting.svg",
+    "solidRect": [
+     0,
+     0,
+     48,
+     22
+    ],
+    "spot": {
+     "x": 24.0,
+     "y": 28,
+     "activity": "대기"
+    }
+   },
+   {
+    "key": "consultdesk",
+    "label": "진료 책상",
+    "footprint": [
+     40,
+     36
+    ],
+    "bbox": [
+     0,
+     0,
+     40.8,
+     40.8
+    ],
+    "solid": true,
+    "svg": "furniture/clinic/consultdesk.svg",
+    "solidRect": [
+     0,
+     0,
+     40,
+     36
+    ],
+    "spot": {
+     "x": 20.0,
+     "y": 42,
+     "activity": "진료 받기"
+    }
+   },
+   {
+    "key": "exambed",
+    "label": "진료 침대",
+    "footprint": [
+     44,
+     31
+    ],
+    "bbox": [
+     0,
+     4,
+     44.8,
+     28
+    ],
+    "solid": true,
+    "svg": "furniture/clinic/exambed.svg",
+    "solidRect": [
+     0,
+     0,
+     44,
+     31
+    ],
+    "spot": {
+     "x": 22.0,
+     "y": 37,
+     "activity": "누워서 진료"
+    }
+   },
+   {
+    "key": "medshelf",
+    "label": "약 선반",
+    "footprint": [
+     34,
+     32
+    ],
+    "bbox": [
+     0,
+     -5.2,
+     34.8,
+     39
+    ],
+    "solid": true,
+    "svg": "furniture/clinic/medshelf.svg",
+    "solidRect": [
+     0,
+     0,
+     34,
+     32
+    ]
+   },
+   {
+    "key": "scale",
+    "label": "체중계",
+    "footprint": [
+     14,
+     26
+    ],
+    "bbox": [
+     0,
+     -1.2,
+     14,
+     28.6
+    ],
+    "solid": true,
+    "svg": "furniture/clinic/scale.svg",
+    "solidRect": [
+     0,
+     0,
+     14,
+     26
+    ]
+   },
+   {
+    "key": "curtain",
+    "label": "커튼 칸막이",
+    "footprint": [
+     44,
+     30
+    ],
+    "bbox": [
+     0,
+     0,
+     44,
+     30
+    ],
+    "solid": false,
+    "svg": "furniture/clinic/curtain.svg"
+   },
+   {
+    "key": "ivstand",
+    "label": "수액 걸이",
+    "footprint": [
+     10,
+     30
+    ],
+    "bbox": [
+     0,
+     3,
+     10,
+     28.2
+    ],
+    "solid": true,
+    "svg": "furniture/clinic/ivstand.svg",
+    "solidRect": [
+     0,
+     0,
+     10,
+     30
+    ]
+   }
+  ],
+  "cinema": [
+   {
+    "key": "seatrow",
+    "label": "좌석 한 줄",
+    "footprint": [
+     92,
+     20
+    ],
+    "bbox": [
+     0,
+     0,
+     92.8,
+     21.8
+    ],
+    "solid": true,
+    "svg": "furniture/cinema/seatrow.svg",
+    "solidRect": [
+     0,
+     0,
+     92,
+     20
+    ],
+    "spot": {
+     "x": 46.0,
+     "y": 26,
+     "activity": "앉아서 영화 보기"
+    }
+   },
+   {
+    "key": "ticket",
+    "label": "매표소",
+    "footprint": [
+     40,
+     32
+    ],
+    "bbox": [
+     0,
+     0,
+     40.8,
+     33.8
+    ],
+    "solid": true,
+    "svg": "furniture/cinema/ticket.svg",
+    "solidRect": [
+     0,
+     0,
+     40,
+     32
+    ],
+    "spot": {
+     "x": 20.0,
+     "y": 38,
+     "activity": "표 사기"
+    }
+   },
+   {
+    "key": "popcorn",
+    "label": "팝콘 기계",
+    "footprint": [
+     20,
+     34
+    ],
+    "bbox": [
+     0,
+     -3,
+     20.8,
+     38.8
+    ],
+    "solid": true,
+    "svg": "furniture/cinema/popcorn.svg",
+    "solidRect": [
+     0,
+     0,
+     20,
+     34
+    ],
+    "spot": {
+     "x": 10.0,
+     "y": 40,
+     "activity": "팝콘 사기"
+    }
+   },
+   {
+    "key": "poster",
+    "label": "포스터 액자",
+    "footprint": [
+     16,
+     22
+    ],
+    "bbox": [
+     0,
+     0,
+     16,
+     22
+    ],
+    "solid": false,
+    "svg": "furniture/cinema/poster.svg"
+   },
+   {
+    "key": "aisle",
+    "label": "통로 카펫·유도등",
+    "footprint": [
+     14,
+     60
+    ],
+    "bbox": [
+     0,
+     0,
+     14,
+     60
+    ],
+    "solid": false,
+    "svg": "furniture/cinema/aisle.svg"
+   }
+  ],
+  "library": [
+   {
+    "key": "tallshelf",
+    "label": "높은 책장",
+    "footprint": [
+     40,
+     40
+    ],
+    "bbox": [
+     0,
+     0,
+     40.8,
+     41.8
+    ],
+    "solid": true,
+    "svg": "furniture/library/tallshelf.svg",
+    "solidRect": [
+     0,
+     0,
+     40,
+     40
+    ]
+   },
+   {
+    "key": "readdesk",
+    "label": "열람 책상",
+    "footprint": [
+     44,
+     34
+    ],
+    "bbox": [
+     0,
+     0,
+     45,
+     33.4
+    ],
+    "solid": true,
+    "svg": "furniture/library/readdesk.svg",
+    "solidRect": [
+     0,
+     0,
+     44,
+     34
+    ],
+    "spot": {
+     "x": 22.0,
+     "y": 40,
+     "activity": "책 읽기"
+    }
+   },
+   {
+    "key": "loandesk",
+    "label": "대출 데스크",
+    "footprint": [
+     46,
+     28
+    ],
+    "bbox": [
+     0,
+     0,
+     46.8,
+     31.8
+    ],
+    "solid": true,
+    "svg": "furniture/library/loandesk.svg",
+    "solidRect": [
+     0,
+     0,
+     46,
+     28
+    ],
+    "spot": {
+     "x": 23.0,
+     "y": 34,
+     "activity": "책 빌리기"
+    }
+   },
+   {
+    "key": "magazine",
+    "label": "잡지 꽂이",
+    "footprint": [
+     26,
+     30
+    ],
+    "bbox": [
+     0,
+     4,
+     26.8,
+     27.8
+    ],
+    "solid": true,
+    "svg": "furniture/library/magazine.svg",
+    "solidRect": [
+     0,
+     0,
+     26,
+     30
+    ]
+   },
+   {
+    "key": "beanbag",
+    "label": "빈백",
+    "footprint": [
+     20,
+     19
+    ],
+    "bbox": [
+     0,
+     3.7,
+     20,
+     15.9
+    ],
+    "solid": false,
+    "svg": "furniture/library/beanbag.svg",
+    "spot": {
+     "x": 10.0,
+     "y": 25,
+     "activity": "편하게 읽기"
+    }
+   },
+   {
+    "key": "globe",
+    "label": "지구본",
+    "footprint": [
+     12,
+     23
+    ],
+    "bbox": [
+     0,
+     2,
+     12,
+     21.2
+    ],
+    "solid": true,
+    "svg": "furniture/library/globe.svg",
+    "solidRect": [
+     0,
+     0,
+     12,
+     23
+    ]
+   }
+  ],
+  "market": [
+   {
+    "key": "produce",
+    "label": "과일·채소 진열대",
+    "footprint": [
+     50,
+     30
+    ],
+    "bbox": [
+     0,
+     2,
+     50.8,
+     31.8
+    ],
+    "solid": true,
+    "svg": "furniture/market/produce.svg",
+    "solidRect": [
+     0,
+     0,
+     50,
+     30
+    ],
+    "spot": {
+     "x": 25.0,
+     "y": 36,
+     "activity": "장보기"
+    }
+   },
+   {
+    "key": "snackshelf",
+    "label": "과자 선반",
+    "footprint": [
+     44,
+     34
+    ],
+    "bbox": [
+     0,
+     0,
+     44.8,
+     35.8
+    ],
+    "solid": true,
+    "svg": "furniture/market/snackshelf.svg",
+    "solidRect": [
+     0,
+     0,
+     44,
+     34
+    ],
+    "spot": {
+     "x": 22.0,
+     "y": 40,
+     "activity": "과자 고르기"
+    }
+   },
+   {
+    "key": "drinkfridge",
+    "label": "음료 냉장고",
+    "footprint": [
+     40,
+     36
+    ],
+    "bbox": [
+     0,
+     -3.4,
+     40.8,
+     41.2
+    ],
+    "solid": true,
+    "svg": "furniture/market/drinkfridge.svg",
+    "solidRect": [
+     0,
+     0,
+     40,
+     36
+    ],
+    "spot": {
+     "x": 20.0,
+     "y": 42,
+     "activity": "음료 고르기"
+    }
+   },
+   {
+    "key": "checkout",
+    "label": "계산대",
+    "footprint": [
+     48,
+     30
+    ],
+    "bbox": [
+     0,
+     0,
+     48.8,
+     31.8
+    ],
+    "solid": true,
+    "svg": "furniture/market/checkout.svg",
+    "solidRect": [
+     0,
+     0,
+     48,
+     30
+    ],
+    "spot": {
+     "x": 24.0,
+     "y": 36,
+     "activity": "계산하기"
+    }
+   },
+   {
+    "key": "cart",
+    "label": "카트",
+    "footprint": [
+     20,
+     20
+    ],
+    "bbox": [
+     -1,
+     1,
+     21,
+     20.4
+    ],
+    "solid": false,
+    "svg": "furniture/market/cart.svg"
+   },
+   {
+    "key": "baskets",
+    "label": "장바구니 더미",
+    "footprint": [
+     18,
+     14
+    ],
+    "bbox": [
+     0,
+     -2.5,
+     18,
+     17.9
+    ],
+    "solid": true,
+    "svg": "furniture/market/baskets.svg",
+    "solidRect": [
+     0,
+     0,
+     18,
+     14
+    ]
+   }
+  ],
+  "salon": [
+   {
+    "key": "station",
+    "label": "거울과 미용 의자",
+    "footprint": [
+     30,
+     47
+    ],
+    "bbox": [
+     2,
+     0,
+     26.8,
+     47.6
+    ],
+    "solid": true,
+    "svg": "furniture/salon/station.svg",
+    "solidRect": [
+     0,
+     0,
+     30,
+     47
+    ],
+    "spot": {
+     "x": 15.0,
+     "y": 53,
+     "activity": "머리 하기"
+    }
+   },
+   {
+    "key": "shampoo",
+    "label": "샴푸대",
+    "footprint": [
+     24,
+     34
+    ],
+    "bbox": [
+     0,
+     0,
+     24.8,
+     35.8
+    ],
+    "solid": true,
+    "svg": "furniture/salon/shampoo.svg",
+    "solidRect": [
+     0,
+     0,
+     24,
+     34
+    ],
+    "spot": {
+     "x": 12.0,
+     "y": 40,
+     "activity": "머리 감기"
+    }
+   },
+   {
+    "key": "pole",
+    "label": "이발소 기둥",
+    "footprint": [
+     8,
+     30
+    ],
+    "bbox": [
+     0,
+     -3.4,
+     8,
+     40.8
+    ],
+    "solid": true,
+    "svg": "furniture/salon/pole.svg",
+    "solidRect": [
+     0,
+     0,
+     8,
+     30
+    ]
+   },
+   {
+    "key": "waitsofa",
+    "label": "대기 소파",
+    "footprint": [
+     40,
+     25
+    ],
+    "bbox": [
+     0,
+     0,
+     40.8,
+     26.8
+    ],
+    "solid": true,
+    "svg": "furniture/salon/waitsofa.svg",
+    "solidRect": [
+     0,
+     0,
+     40,
+     25
+    ],
+    "spot": {
+     "x": 20.0,
+     "y": 31,
+     "activity": "기다리기"
+    }
+   },
+   {
+    "key": "dryer",
+    "label": "후드 드라이어",
+    "footprint": [
+     20,
+     33
+    ],
+    "bbox": [
+     1,
+     0,
+     18,
+     34.8
+    ],
+    "solid": true,
+    "svg": "furniture/salon/dryer.svg",
+    "solidRect": [
+     0,
+     0,
+     20,
+     33
+    ],
+    "spot": {
+     "x": 10.0,
+     "y": 39,
+     "activity": "말리기"
+    }
+   },
+   {
+    "key": "trolley",
+    "label": "미용 카트",
+    "footprint": [
+     14,
+     24
+    ],
+    "bbox": [
+     0,
+     0,
+     14,
+     25.2
+    ],
+    "solid": true,
+    "svg": "furniture/salon/trolley.svg",
+    "solidRect": [
+     0,
+     0,
+     14,
+     24
+    ]
+   }
+  ],
+  "office": [
+   {
+    "key": "teller",
+    "label": "창구 카운터(3칸)",
+    "footprint": [
+     70,
+     26
+    ],
+    "bbox": [
+     0,
+     0,
+     70.8,
+     37.8
+    ],
+    "solid": true,
+    "svg": "furniture/office/teller.svg",
+    "solidRect": [
+     0,
+     0,
+     70,
+     26
+    ],
+    "spot": {
+     "x": 35.0,
+     "y": 32,
+     "activity": "창구 업무"
+    }
+   },
+   {
+    "key": "ticketmachine",
+    "label": "번호표 기계",
+    "footprint": [
+     12,
+     26
+    ],
+    "bbox": [
+     0,
+     6,
+     12,
+     21.2
+    ],
+    "solid": true,
+    "svg": "furniture/office/ticketmachine.svg",
+    "solidRect": [
+     0,
+     0,
+     12,
+     26
+    ],
+    "spot": {
+     "x": 6.0,
+     "y": 32,
+     "activity": "번호표 뽑기"
+    }
+   },
+   {
+    "key": "numberboard",
+    "label": "번호 화면",
+    "footprint": [
+     30,
+     14
+    ],
+    "bbox": [
+     0,
+     0,
+     30,
+     14
+    ],
+    "solid": false,
+    "svg": "furniture/office/numberboard.svg"
+   },
+   {
+    "key": "waitchairs",
+    "label": "대기 의자",
+    "footprint": [
+     44,
+     18
+    ],
+    "bbox": [
+     0,
+     0,
+     44,
+     18
+    ],
+    "solid": true,
+    "svg": "furniture/office/waitchairs.svg",
+    "solidRect": [
+     0,
+     0,
+     44,
+     18
+    ],
+    "spot": {
+     "x": 22.0,
+     "y": 24,
+     "activity": "기다리기"
+    }
+   },
+   {
+    "key": "atm",
+    "label": "ATM",
+    "footprint": [
+     18,
+     34
+    ],
+    "bbox": [
+     0,
+     -3.4,
+     18.8,
+     39.2
+    ],
+    "solid": true,
+    "svg": "furniture/office/atm.svg",
+    "solidRect": [
+     0,
+     0,
+     18,
+     34
+    ],
+    "spot": {
+     "x": 9.0,
+     "y": 40,
+     "activity": "돈 찾기"
+    }
+   },
+   {
+    "key": "infodesk",
+    "label": "안내 데스크",
+    "footprint": [
+     32,
+     20
+    ],
+    "bbox": [
+     0,
+     0,
+     32,
+     20
+    ],
+    "solid": true,
+    "svg": "furniture/office/infodesk.svg",
+    "solidRect": [
+     0,
+     0,
+     32,
+     20
+    ],
+    "spot": {
+     "x": 16.0,
+     "y": 26,
+     "activity": "안내 받기"
+    }
+   }
+  ],
+  "stage": [
+   {
+    "key": "stage",
+    "label": "무대와 조명",
+    "footprint": [
+     90,
+     50
+    ],
+    "bbox": [
+     0,
+     -4,
+     90.8,
+     55.8
+    ],
+    "solid": true,
+    "svg": "furniture/stage/stage.svg",
+    "solidRect": [
+     0,
+     0,
+     90,
+     50
+    ],
+    "spot": {
+     "x": 45.0,
+     "y": 56,
+     "activity": "노래하기"
+    }
+   },
+   {
+    "key": "mic",
+    "label": "마이크 스탠드",
+    "footprint": [
+     12,
+     29
+    ],
+    "bbox": [
+     0,
+     0.6,
+     11,
+     28.4
+    ],
+    "solid": true,
+    "svg": "furniture/stage/mic.svg",
+    "solidRect": [
+     0,
+     0,
+     12,
+     29
+    ]
+   },
+   {
+    "key": "speaker",
+    "label": "스피커",
+    "footprint": [
+     16,
+     28
+    ],
+    "bbox": [
+     0,
+     0,
+     16.8,
+     29.8
+    ],
+    "solid": true,
+    "svg": "furniture/stage/speaker.svg",
+    "solidRect": [
+     0,
+     0,
+     16,
+     28
+    ]
+   },
+   {
+    "key": "karaoke",
+    "label": "노래방 소파·화면",
+    "footprint": [
+     56,
+     42
+    ],
+    "bbox": [
+     0,
+     0,
+     56.8,
+     43.8
+    ],
+    "solid": true,
+    "svg": "furniture/stage/karaoke.svg",
+    "solidRect": [
+     0,
+     0,
+     56,
+     42
+    ],
+    "spot": {
+     "x": 28.0,
+     "y": 48,
+     "activity": "노래방"
+    }
+   },
+   {
+    "key": "audience",
+    "label": "객석 의자",
+    "footprint": [
+     58,
+     13
+    ],
+    "bbox": [
+     0,
+     0,
+     58.8,
+     14.8
+    ],
+    "solid": true,
+    "svg": "furniture/stage/audience.svg",
+    "solidRect": [
+     0,
+     0,
+     58,
+     13
+    ],
+    "spot": {
+     "x": 29.0,
+     "y": 19,
+     "activity": "공연 보기"
+    }
+   }
+  ]
+ }
+}

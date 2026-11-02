@@ -1,0 +1,301 @@
+{
+ "viewBox": "-12 -16 25 18",
+ "origin": "발밑 가운데 (0,0), 오른쪽을 봄",
+ "furDark": {
+  "#C98B5A": "#9C6440",
+  "#F2EDE4": "#CFC2AE",
+  "#3A2E2A": "#221A17",
+  "#E8C79A": "#C49C66",
+  "#9AA3B5": "#6F7A8E"
+ },
+ "frames": {
+  "dog-walk-1": {
+   "leashRing": [
+    4.25,
+    -6.3
+   ]
+  },
+  "dog-walk-2": {
+   "leashRing": [
+    4.25,
+    -6.55
+   ]
+  },
+  "dog-walk-3": {
+   "leashRing": [
+    4.25,
+    -6.3
+   ]
+  },
+  "dog-walk-4": {
+   "leashRing": [
+    4.25,
+    -6.55
+   ]
+  },
+  "dog-sit": {
+   "leashRing": [
+    2.05,
+    -7.6
+   ]
+  },
+  "dog-lie": {
+   "leashRing": [
+    5.85,
+    -1.0
+   ]
+  },
+  "dog-poodle-walk-1": {
+   "leashRing": [
+    3.65,
+    -6.65
+   ]
+  },
+  "dog-poodle-walk-2": {
+   "leashRing": [
+    3.65,
+    -6.9
+   ]
+  },
+  "dog-poodle-walk-3": {
+   "leashRing": [
+    3.65,
+    -6.65
+   ]
+  },
+  "dog-poodle-walk-4": {
+   "leashRing": [
+    3.65,
+    -6.9
+   ]
+  },
+  "dog-poodle-sit": {
+   "leashRing": [
+    2.05,
+    -7.6
+   ]
+  },
+  "dog-poodle-lie": {
+   "leashRing": [
+    5.25,
+    -1.0
+   ]
+  },
+  "dog-shiba-walk-1": {
+   "leashRing": [
+    4.05,
+    -6.3
+   ]
+  },
+  "dog-shiba-walk-2": {
+   "leashRing": [
+    4.05,
+    -6.55
+   ]
+  },
+  "dog-shiba-walk-3": {
+   "leashRing": [
+    4.05,
+    -6.3
+   ]
+  },
+  "dog-shiba-walk-4": {
+   "leashRing": [
+    4.05,
+    -6.55
+   ]
+  },
+  "dog-shiba-sit": {
+   "leashRing": [
+    2.05,
+    -7.6
+   ]
+  },
+  "dog-shiba-lie": {
+   "leashRing": [
+    5.65,
+    -1.0
+   ]
+  },
+  "dog-dachshund-walk-1": {
+   "leashRing": [
+    6.25,
+    -4.44
+   ]
+  },
+  "dog-dachshund-walk-2": {
+   "leashRing": [
+    6.25,
+    -4.69
+   ]
+  },
+  "dog-dachshund-walk-3": {
+   "leashRing": [
+    6.25,
+    -4.44
+   ]
+  },
+  "dog-dachshund-walk-4": {
+   "leashRing": [
+    6.25,
+    -4.69
+   ]
+  },
+  "dog-dachshund-sit": {
+   "leashRing": [
+    2.05,
+    -6.0
+   ]
+  },
+  "dog-dachshund-lie": {
+   "leashRing": [
+    7.85,
+    -1.0
+   ]
+  },
+  "cat-walk-1": {
+   "leashRing": [
+    4.05,
+    -5.1
+   ]
+  },
+  "cat-walk-2": {
+   "leashRing": [
+    4.05,
+    -5.25
+   ]
+  },
+  "cat-walk-3": {
+   "leashRing": [
+    4.05,
+    -5.1
+   ]
+  },
+  "cat-walk-4": {
+   "leashRing": [
+    4.05,
+    -5.25
+   ]
+  },
+  "cat-sit": {
+   "leashRing": [
+    1.25,
+    -7.0
+   ]
+  },
+  "cat-lie": {
+   "leashRing": [
+    3.85,
+    -0.6
+   ]
+  },
+  "cat-cheese-walk-1": {
+   "leashRing": [
+    4.05,
+    -5.1
+   ]
+  },
+  "cat-cheese-walk-2": {
+   "leashRing": [
+    4.05,
+    -5.25
+   ]
+  },
+  "cat-cheese-walk-3": {
+   "leashRing": [
+    4.05,
+    -5.1
+   ]
+  },
+  "cat-cheese-walk-4": {
+   "leashRing": [
+    4.05,
+    -5.25
+   ]
+  },
+  "cat-cheese-sit": {
+   "leashRing": [
+    1.25,
+    -7.0
+   ]
+  },
+  "cat-cheese-lie": {
+   "leashRing": [
+    3.85,
+    -0.6
+   ]
+  },
+  "cat-tuxedo-walk-1": {
+   "leashRing": [
+    4.05,
+    -5.1
+   ]
+  },
+  "cat-tuxedo-walk-2": {
+   "leashRing": [
+    4.05,
+    -5.25
+   ]
+  },
+  "cat-tuxedo-walk-3": {
+   "leashRing": [
+    4.05,
+    -5.1
+   ]
+  },
+  "cat-tuxedo-walk-4": {
+   "leashRing": [
+    4.05,
+    -5.25
+   ]
+  },
+  "cat-tuxedo-sit": {
+   "leashRing": [
+    1.25,
+    -7.0
+   ]
+  },
+  "cat-tuxedo-lie": {
+   "leashRing": [
+    3.85,
+    -0.6
+   ]
+  },
+  "cat-calico-walk-1": {
+   "leashRing": [
+    4.05,
+    -5.1
+   ]
+  },
+  "cat-calico-walk-2": {
+   "leashRing": [
+    4.05,
+    -5.25
+   ]
+  },
+  "cat-calico-walk-3": {
+   "leashRing": [
+    4.05,
+    -5.1
+   ]
+  },
+  "cat-calico-walk-4": {
+   "leashRing": [
+    4.05,
+    -5.25
+   ]
+  },
+  "cat-calico-sit": {
+   "leashRing": [
+    1.25,
+    -7.0
+   ]
+  },
+  "cat-calico-lie": {
+   "leashRing": [
+    3.85,
+    -0.6
+   ]
+  }
+ }
+}

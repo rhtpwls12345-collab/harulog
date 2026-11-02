@@ -1,0 +1,3240 @@
+{
+ "furniture": {
+  "home": {
+   "label": "집",
+   "items": [
+    {
+     "key": "tv",
+     "label": "TV와 TV장",
+     "footprint": [
+      46,
+      30
+     ],
+     "bbox": [
+      0,
+      0,
+      44.8,
+      31.8
+     ],
+     "solid": true,
+     "svg": "furniture/home/tv.svg",
+     "solidRect": [
+      0,
+      0,
+      46,
+      30
+     ],
+     "spot": {
+      "x": 23.0,
+      "y": 36,
+      "activity": "휴식·TV 보기"
+     }
+    },
+    {
+     "key": "wardrobe",
+     "label": "옷장",
+     "footprint": [
+      34,
+      39
+     ],
+     "bbox": [
+      0,
+      0,
+      34.8,
+      38.4
+     ],
+     "solid": true,
+     "svg": "furniture/home/wardrobe.svg",
+     "solidRect": [
+      0,
+      0,
+      34,
+      39
+     ]
+    },
+    {
+     "key": "fridge",
+     "label": "냉장고",
+     "footprint": [
+      18,
+      36
+     ],
+     "bbox": [
+      0,
+      0,
+      18.8,
+      37.8
+     ],
+     "solid": true,
+     "svg": "furniture/home/fridge.svg",
+     "solidRect": [
+      0,
+      0,
+      18,
+      36
+     ]
+    },
+    {
+     "key": "kitchen",
+     "label": "싱크대·가스레인지",
+     "footprint": [
+      46,
+      22
+     ],
+     "bbox": [
+      0,
+      -2,
+      46.8,
+      25.8
+     ],
+     "solid": true,
+     "svg": "furniture/home/kitchen.svg",
+     "solidRect": [
+      0,
+      0,
+      46,
+      22
+     ],
+     "spot": {
+      "x": 23.0,
+      "y": 28,
+      "activity": "요리"
+     }
+    },
+    {
+     "key": "dinette",
+     "label": "2인 식탁",
+     "footprint": [
+      38,
+      31
+     ],
+     "bbox": [
+      0,
+      0,
+      38.8,
+      32.4
+     ],
+     "solid": true,
+     "svg": "furniture/home/dinette.svg",
+     "solidRect": [
+      0,
+      0,
+      38,
+      31
+     ],
+     "spot": {
+      "x": 19.0,
+      "y": 37,
+      "activity": "식사"
+     }
+    },
+    {
+     "key": "desk",
+     "label": "공부 책상",
+     "footprint": [
+      36,
+      35
+     ],
+     "bbox": [
+      0,
+      -1,
+      36.8,
+      39.8
+     ],
+     "solid": true,
+     "svg": "furniture/home/desk.svg",
+     "solidRect": [
+      0,
+      0,
+      36,
+      35
+     ],
+     "spot": {
+      "x": 18.0,
+      "y": 41,
+      "activity": "공부·일기 쓰기"
+     }
+    },
+    {
+     "key": "armchair",
+     "label": "1인 소파",
+     "footprint": [
+      24,
+      28
+     ],
+     "bbox": [
+      -1,
+      0,
+      26,
+      29.8
+     ],
+     "solid": true,
+     "svg": "furniture/home/armchair.svg",
+     "solidRect": [
+      0,
+      0,
+      24,
+      28
+     ],
+     "spot": {
+      "x": 12.0,
+      "y": 34,
+      "activity": "독서"
+     }
+    },
+    {
+     "key": "aquarium",
+     "label": "어항",
+     "footprint": [
+      30,
+      30
+     ],
+     "bbox": [
+      0,
+      0,
+      30.8,
+      31.8
+     ],
+     "solid": true,
+     "svg": "furniture/home/aquarium.svg",
+     "solidRect": [
+      0,
+      0,
+      30,
+      30
+     ],
+     "spot": {
+      "x": 15.0,
+      "y": 36,
+      "activity": "물고기 보기"
+     }
+    },
+    {
+     "key": "piano",
+     "label": "업라이트 피아노",
+     "footprint": [
+      40,
+      38
+     ],
+     "bbox": [
+      0,
+      0,
+      40.8,
+      39.8
+     ],
+     "solid": true,
+     "svg": "furniture/home/piano.svg",
+     "solidRect": [
+      0,
+      0,
+      40,
+      38
+     ],
+     "spot": {
+      "x": 20.0,
+      "y": 44,
+      "activity": "악기 연습"
+     }
+    },
+    {
+     "key": "floorsit",
+     "label": "좌식 테이블",
+     "footprint": [
+      40,
+      22
+     ],
+     "bbox": [
+      0,
+      4,
+      40.8,
+      20.8
+     ],
+     "solid": false,
+     "svg": "furniture/home/floorsit.svg",
+     "spot": {
+      "x": 20.0,
+      "y": 28,
+      "activity": "차 마시기"
+     }
+    },
+    {
+     "key": "clothes",
+     "label": "행거",
+     "footprint": [
+      32,
+      26
+     ],
+     "bbox": [
+      0,
+      2,
+      32,
+      26
+     ],
+     "solid": true,
+     "svg": "furniture/home/clothes.svg",
+     "solidRect": [
+      0,
+      0,
+      32,
+      26
+     ]
+    },
+    {
+     "key": "washer",
+     "label": "세탁기",
+     "footprint": [
+      20,
+      24
+     ],
+     "bbox": [
+      0,
+      0,
+      20.8,
+      25.8
+     ],
+     "solid": true,
+     "svg": "furniture/home/washer.svg",
+     "solidRect": [
+      0,
+      0,
+      20,
+      24
+     ],
+     "spot": {
+      "x": 10.0,
+      "y": 30,
+      "activity": "빨래"
+     }
+    },
+    {
+     "key": "bathtub",
+     "label": "욕조",
+     "footprint": [
+      44,
+      25
+     ],
+     "bbox": [
+      0,
+      0,
+      44,
+      26
+     ],
+     "solid": true,
+     "svg": "furniture/home/bathtub.svg",
+     "solidRect": [
+      0,
+      0,
+      44,
+      25
+     ],
+     "spot": {
+      "x": 22.0,
+      "y": 31,
+      "activity": "목욕·씻기"
+     }
+    },
+    {
+     "key": "monstera",
+     "label": "몬스테라 화분",
+     "footprint": [
+      22,
+      27
+     ],
+     "bbox": [
+      -7.5,
+      0.8,
+      28.5,
+      27.3
+     ],
+     "solid": true,
+     "svg": "furniture/home/monstera.svg",
+     "solidRect": [
+      0,
+      0,
+      22,
+      27
+     ]
+    },
+    {
+     "key": "dresser",
+     "label": "화장대",
+     "footprint": [
+      30,
+      30
+     ],
+     "bbox": [
+      0,
+      -1,
+      30.8,
+      32.8
+     ],
+     "solid": true,
+     "svg": "furniture/home/dresser.svg",
+     "solidRect": [
+      0,
+      0,
+      30,
+      30
+     ],
+     "spot": {
+      "x": 15.0,
+      "y": 36,
+      "activity": "단장"
+     }
+    }
+   ]
+  },
+  "work": {
+   "label": "작업실·사무실",
+   "items": [
+    {
+     "key": "pcdesk",
+     "label": "듀얼 모니터 책상",
+     "footprint": [
+      44,
+      34
+     ],
+     "bbox": [
+      0,
+      0,
+      44.8,
+      34.4
+     ],
+     "solid": true,
+     "svg": "furniture/work/pcdesk.svg",
+     "solidRect": [
+      0,
+      0,
+      44,
+      34
+     ],
+     "spot": {
+      "x": 22.0,
+      "y": 40,
+      "activity": "업무"
+     }
+    },
+    {
+     "key": "partition",
+     "label": "파티션 자리",
+     "footprint": [
+      44,
+      37
+     ],
+     "bbox": [
+      0,
+      -2,
+      44,
+      40.8
+     ],
+     "solid": true,
+     "svg": "furniture/work/partition.svg",
+     "solidRect": [
+      0,
+      0,
+      44,
+      37
+     ],
+     "spot": {
+      "x": 22.0,
+      "y": 43,
+      "activity": "업무"
+     }
+    },
+    {
+     "key": "whiteboard",
+     "label": "화이트보드",
+     "footprint": [
+      36,
+      31
+     ],
+     "bbox": [
+      0,
+      0,
+      36,
+      32
+     ],
+     "solid": true,
+     "svg": "furniture/work/whiteboard.svg",
+     "solidRect": [
+      0,
+      0,
+      36,
+      31
+     ],
+     "spot": {
+      "x": 18.0,
+      "y": 37,
+      "activity": "회의·기획"
+     }
+    },
+    {
+     "key": "printer",
+     "label": "복합기",
+     "footprint": [
+      24,
+      28
+     ],
+     "bbox": [
+      0,
+      2,
+      24.8,
+      26
+     ],
+     "solid": true,
+     "svg": "furniture/work/printer.svg",
+     "solidRect": [
+      0,
+      0,
+      24,
+      28
+     ],
+     "spot": {
+      "x": 12.0,
+      "y": 34,
+      "activity": "출력"
+     }
+    },
+    {
+     "key": "cooler",
+     "label": "정수기",
+     "footprint": [
+      20,
+      37
+     ],
+     "bbox": [
+      0,
+      0,
+      20,
+      37.6
+     ],
+     "solid": true,
+     "svg": "furniture/work/cooler.svg",
+     "solidRect": [
+      0,
+      0,
+      20,
+      37
+     ]
+    },
+    {
+     "key": "cabinet",
+     "label": "서류 캐비닛",
+     "footprint": [
+      18,
+      34
+     ],
+     "bbox": [
+      0,
+      -3,
+      18.8,
+      38.8
+     ],
+     "solid": true,
+     "svg": "furniture/work/cabinet.svg",
+     "solidRect": [
+      0,
+      0,
+      18,
+      34
+     ]
+    },
+    {
+     "key": "meeting",
+     "label": "회의 테이블",
+     "footprint": [
+      60,
+      35
+     ],
+     "bbox": [
+      0,
+      0,
+      60,
+      41
+     ],
+     "solid": true,
+     "svg": "furniture/work/meeting.svg",
+     "solidRect": [
+      0,
+      0,
+      60,
+      35
+     ],
+     "spot": {
+      "x": 30.0,
+      "y": 41,
+      "activity": "회의"
+     }
+    },
+    {
+     "key": "officechair",
+     "label": "사무용 의자",
+     "footprint": [
+      18,
+      27
+     ],
+     "bbox": [
+      0,
+      0,
+      18.8,
+      27.6
+     ],
+     "solid": false,
+     "svg": "furniture/work/officechair.svg"
+    },
+    {
+     "key": "coffee",
+     "label": "커피 스테이션",
+     "footprint": [
+      30,
+      30
+     ],
+     "bbox": [
+      0,
+      0,
+      30.8,
+      31.8
+     ],
+     "solid": true,
+     "svg": "furniture/work/coffee.svg",
+     "solidRect": [
+      0,
+      0,
+      30,
+      30
+     ],
+     "spot": {
+      "x": 15.0,
+      "y": 36,
+      "activity": "커피 타임"
+     }
+    },
+    {
+     "key": "projector",
+     "label": "프로젝터 스크린",
+     "footprint": [
+      44,
+      35
+     ],
+     "bbox": [
+      0,
+      0,
+      44,
+      36
+     ],
+     "solid": true,
+     "svg": "furniture/work/projector.svg",
+     "solidRect": [
+      0,
+      0,
+      44,
+      35
+     ],
+     "spot": {
+      "x": 22.0,
+      "y": 41,
+      "activity": "발표"
+     }
+    },
+    {
+     "key": "lounge",
+     "label": "라운지 소파",
+     "footprint": [
+      48,
+      28
+     ],
+     "bbox": [
+      0,
+      -6.9,
+      49.6,
+      36.7
+     ],
+     "solid": true,
+     "svg": "furniture/work/lounge.svg",
+     "solidRect": [
+      0,
+      0,
+      48,
+      28
+     ],
+     "spot": {
+      "x": 24.0,
+      "y": 34,
+      "activity": "휴식"
+     }
+    },
+    {
+     "key": "standing",
+     "label": "스탠딩 책상",
+     "footprint": [
+      32,
+      35
+     ],
+     "bbox": [
+      0,
+      0,
+      32.8,
+      36
+     ],
+     "solid": true,
+     "svg": "furniture/work/standing.svg",
+     "solidRect": [
+      0,
+      0,
+      32,
+      35
+     ],
+     "spot": {
+      "x": 16.0,
+      "y": 41,
+      "activity": "업무"
+     }
+    },
+    {
+     "key": "mailshelf",
+     "label": "우편함 선반",
+     "footprint": [
+      30,
+      29
+     ],
+     "bbox": [
+      0,
+      0,
+      30.8,
+      30.8
+     ],
+     "solid": true,
+     "svg": "furniture/work/mailshelf.svg",
+     "solidRect": [
+      0,
+      0,
+      30,
+      29
+     ]
+    },
+    {
+     "key": "pingpong",
+     "label": "탁구대",
+     "footprint": [
+      48,
+      28
+     ],
+     "bbox": [
+      0,
+      -2,
+      48.8,
+      30.4
+     ],
+     "solid": true,
+     "svg": "furniture/work/pingpong.svg",
+     "solidRect": [
+      0,
+      0,
+      48,
+      28
+     ],
+     "spot": {
+      "x": 24.0,
+      "y": 34,
+      "activity": "놀이"
+     }
+    }
+   ]
+  },
+  "cafe": {
+   "label": "카페",
+   "items": [
+    {
+     "key": "espresso",
+     "label": "에스프레소 바",
+     "footprint": [
+      40,
+      34
+     ],
+     "bbox": [
+      0,
+      0,
+      40.8,
+      35.8
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/espresso.svg",
+     "solidRect": [
+      0,
+      0,
+      40,
+      34
+     ],
+     "spot": {
+      "x": 20.0,
+      "y": 40,
+      "activity": "주문·바리스타"
+     }
+    },
+    {
+     "key": "pastry",
+     "label": "디저트 쇼케이스",
+     "footprint": [
+      40,
+      30
+     ],
+     "bbox": [
+      0,
+      0,
+      40.8,
+      31.8
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/pastry.svg",
+     "solidRect": [
+      0,
+      0,
+      40,
+      30
+     ]
+    },
+    {
+     "key": "roundset",
+     "label": "원형 테이블 세트",
+     "footprint": [
+      44,
+      30
+     ],
+     "bbox": [
+      0,
+      6,
+      44.8,
+      24
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/roundset.svg",
+     "solidRect": [
+      0,
+      0,
+      44,
+      30
+     ],
+     "spot": {
+      "x": 22.0,
+      "y": 36,
+      "activity": "카페 대화"
+     }
+    },
+    {
+     "key": "barstools",
+     "label": "창가 바 테이블",
+     "footprint": [
+      50,
+      27
+     ],
+     "bbox": [
+      0,
+      -3.9,
+      50.8,
+      30.9
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/barstools.svg",
+     "solidRect": [
+      0,
+      0,
+      50,
+      27
+     ],
+     "spot": {
+      "x": 25.0,
+      "y": 33,
+      "activity": "혼자 커피"
+     }
+    },
+    {
+     "key": "beans",
+     "label": "원두 자루",
+     "footprint": [
+      26,
+      26
+     ],
+     "bbox": [
+      0,
+      2,
+      26,
+      23.4
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/beans.svg",
+     "solidRect": [
+      0,
+      0,
+      26,
+      26
+     ]
+    },
+    {
+     "key": "coldbrew",
+     "label": "콜드브루 디스펜서",
+     "footprint": [
+      26,
+      28
+     ],
+     "bbox": [
+      0,
+      0,
+      26.8,
+      29.8
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/coldbrew.svg",
+     "solidRect": [
+      0,
+      0,
+      26,
+      28
+     ]
+    },
+    {
+     "key": "pos",
+     "label": "계산대",
+     "footprint": [
+      26,
+      26
+     ],
+     "bbox": [
+      0,
+      0,
+      26.8,
+      27.8
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/pos.svg",
+     "solidRect": [
+      0,
+      0,
+      26,
+      26
+     ],
+     "spot": {
+      "x": 13.0,
+      "y": 32,
+      "activity": "주문"
+     }
+    },
+    {
+     "key": "booth",
+     "label": "부스 좌석",
+     "footprint": [
+      50,
+      40
+     ],
+     "bbox": [
+      0,
+      0,
+      50.8,
+      41.8
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/booth.svg",
+     "solidRect": [
+      0,
+      0,
+      50,
+      40
+     ],
+     "spot": {
+      "x": 25.0,
+      "y": 46,
+      "activity": "친구 만남"
+     }
+    },
+    {
+     "key": "cakestand",
+     "label": "케이크 스탠드",
+     "footprint": [
+      20,
+      23
+     ],
+     "bbox": [
+      1,
+      1.3,
+      18,
+      22.3
+     ],
+     "solid": false,
+     "svg": "furniture/cafe/cakestand.svg"
+    },
+    {
+     "key": "plantshelf",
+     "label": "식물 선반",
+     "footprint": [
+      32,
+      32
+     ],
+     "bbox": [
+      0,
+      -0.9,
+      32,
+      30.9
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/plantshelf.svg",
+     "solidRect": [
+      0,
+      0,
+      32,
+      32
+     ]
+    },
+    {
+     "key": "board",
+     "label": "동네 게시판",
+     "footprint": [
+      32,
+      30
+     ],
+     "bbox": [
+      0,
+      0,
+      32,
+      31.6
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/board.svg",
+     "solidRect": [
+      0,
+      0,
+      32,
+      30
+     ],
+     "spot": {
+      "x": 16.0,
+      "y": 36,
+      "activity": "동네 소식"
+     }
+    },
+    {
+     "key": "takeout",
+     "label": "테이크아웃 창구",
+     "footprint": [
+      34,
+      28
+     ],
+     "bbox": [
+      0,
+      0,
+      34.8,
+      29.8
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/takeout.svg",
+     "solidRect": [
+      0,
+      0,
+      34,
+      28
+     ]
+    },
+    {
+     "key": "armchair",
+     "label": "1인 소파",
+     "footprint": [
+      24,
+      28
+     ],
+     "bbox": [
+      -1,
+      0,
+      26,
+      29.8
+     ],
+     "solid": true,
+     "svg": "furniture/cafe/armchair.svg",
+     "solidRect": [
+      0,
+      0,
+      24,
+      28
+     ]
+    }
+   ]
+  },
+  "dining": {
+   "label": "식당",
+   "items": [
+    {
+     "key": "roundtable",
+     "label": "원형 테이블(3인)",
+     "footprint": [
+      46,
+      38
+     ],
+     "bbox": [
+      0,
+      0,
+      46.8,
+      38.4
+     ],
+     "solid": true,
+     "svg": "furniture/dining/roundtable.svg",
+     "solidRect": [
+      0,
+      0,
+      46,
+      38
+     ],
+     "spot": {
+      "x": 23.0,
+      "y": 44,
+      "activity": "식사·모임"
+     }
+    },
+    {
+     "key": "stove",
+     "label": "주방 화구",
+     "footprint": [
+      46,
+      30
+     ],
+     "bbox": [
+      0,
+      -2,
+      46.8,
+      33.8
+     ],
+     "solid": true,
+     "svg": "furniture/dining/stove.svg",
+     "solidRect": [
+      0,
+      0,
+      46,
+      30
+     ],
+     "spot": {
+      "x": 23.0,
+      "y": 36,
+      "activity": "요리"
+     }
+    },
+    {
+     "key": "grill",
+     "label": "숯불 그릴",
+     "footprint": [
+      28,
+      26
+     ],
+     "bbox": [
+      0,
+      -2,
+      28,
+      30
+     ],
+     "solid": true,
+     "svg": "furniture/dining/grill.svg",
+     "solidRect": [
+      0,
+      0,
+      28,
+      26
+     ],
+     "spot": {
+      "x": 14.0,
+      "y": 32,
+      "activity": "고기 굽기"
+     }
+    },
+    {
+     "key": "sushibar",
+     "label": "초밥 바",
+     "footprint": [
+      56,
+      35
+     ],
+     "bbox": [
+      0,
+      0,
+      56.8,
+      35
+     ],
+     "solid": true,
+     "svg": "furniture/dining/sushibar.svg",
+     "solidRect": [
+      0,
+      0,
+      56,
+      35
+     ],
+     "spot": {
+      "x": 28.0,
+      "y": 41,
+      "activity": "외식"
+     }
+    },
+    {
+     "key": "winerack",
+     "label": "와인 랙",
+     "footprint": [
+      26,
+      32
+     ],
+     "bbox": [
+      0,
+      0,
+      26.8,
+      33.8
+     ],
+     "solid": true,
+     "svg": "furniture/dining/winerack.svg",
+     "solidRect": [
+      0,
+      0,
+      26,
+      32
+     ]
+    },
+    {
+     "key": "saladbar",
+     "label": "샐러드 바",
+     "footprint": [
+      50,
+      30
+     ],
+     "bbox": [
+      0,
+      0,
+      50.8,
+      31.8
+     ],
+     "solid": true,
+     "svg": "furniture/dining/saladbar.svg",
+     "solidRect": [
+      0,
+      0,
+      50,
+      30
+     ],
+     "spot": {
+      "x": 25.0,
+      "y": 36,
+      "activity": "샐러드"
+     }
+    },
+    {
+     "key": "bar",
+     "label": "바 카운터",
+     "footprint": [
+      50,
+      35
+     ],
+     "bbox": [
+      0,
+      0,
+      50.8,
+      35
+     ],
+     "solid": true,
+     "svg": "furniture/dining/bar.svg",
+     "solidRect": [
+      0,
+      0,
+      50,
+      35
+     ],
+     "spot": {
+      "x": 25.0,
+      "y": 41,
+      "activity": "한잔"
+     }
+    },
+    {
+     "key": "highchair",
+     "label": "아기 의자",
+     "footprint": [
+      18,
+      31
+     ],
+     "bbox": [
+      1,
+      0,
+      16.8,
+      31.4
+     ],
+     "solid": true,
+     "svg": "furniture/dining/highchair.svg",
+     "solidRect": [
+      0,
+      0,
+      18,
+      31
+     ]
+    },
+    {
+     "key": "dessertcart",
+     "label": "디저트 카트",
+     "footprint": [
+      36,
+      31
+     ],
+     "bbox": [
+      0,
+      3.6,
+      36,
+      28.4
+     ],
+     "solid": true,
+     "svg": "furniture/dining/dessertcart.svg",
+     "solidRect": [
+      0,
+      0,
+      36,
+      31
+     ]
+    },
+    {
+     "key": "fishtank",
+     "label": "수족관",
+     "footprint": [
+      40,
+      30
+     ],
+     "bbox": [
+      0,
+      0,
+      40.8,
+      31.8
+     ],
+     "solid": true,
+     "svg": "furniture/dining/fishtank.svg",
+     "solidRect": [
+      0,
+      0,
+      40,
+      30
+     ]
+    },
+    {
+     "key": "host",
+     "label": "안내 데스크",
+     "footprint": [
+      18,
+      31
+     ],
+     "bbox": [
+      0,
+      0,
+      18.8,
+      31.8
+     ],
+     "solid": true,
+     "svg": "furniture/dining/host.svg",
+     "solidRect": [
+      0,
+      0,
+      18,
+      31
+     ]
+    },
+    {
+     "key": "kitchenpass",
+     "label": "주방 픽업대",
+     "footprint": [
+      54,
+      26
+     ],
+     "bbox": [
+      0,
+      0,
+      54.8,
+      27.8
+     ],
+     "solid": true,
+     "svg": "furniture/dining/kitchenpass.svg",
+     "solidRect": [
+      0,
+      0,
+      54,
+      26
+     ]
+    },
+    {
+     "key": "buffet",
+     "label": "뷔페 워머",
+     "footprint": [
+      54,
+      28
+     ],
+     "bbox": [
+      0,
+      3.8,
+      54.8,
+      26
+     ],
+     "solid": true,
+     "svg": "furniture/dining/buffet.svg",
+     "solidRect": [
+      0,
+      0,
+      54,
+      28
+     ],
+     "spot": {
+      "x": 27.0,
+      "y": 34,
+      "activity": "뷔페"
+     }
+    },
+    {
+     "key": "booth",
+     "label": "부스 좌석",
+     "footprint": [
+      50,
+      40
+     ],
+     "bbox": [
+      0,
+      0,
+      50.8,
+      41.8
+     ],
+     "solid": true,
+     "svg": "furniture/dining/booth.svg",
+     "solidRect": [
+      0,
+      0,
+      50,
+      40
+     ],
+     "spot": {
+      "x": 25.0,
+      "y": 46,
+      "activity": "식사"
+     }
+    }
+   ]
+  },
+  "gym": {
+   "label": "체육관",
+   "items": [
+    {
+     "key": "treadmill",
+     "label": "러닝머신",
+     "footprint": [
+      30,
+      36
+     ],
+     "bbox": [
+      0,
+      0,
+      30,
+      38
+     ],
+     "solid": true,
+     "svg": "furniture/gym/treadmill.svg",
+     "solidRect": [
+      0,
+      0,
+      30,
+      36
+     ],
+     "spot": {
+      "x": 15.0,
+      "y": 42,
+      "activity": "달리기"
+     }
+    },
+    {
+     "key": "pool",
+     "label": "수영장(레인 3)",
+     "footprint": [
+      80,
+      46
+     ],
+     "bbox": [
+      -2,
+      -2,
+      84,
+      51
+     ],
+     "solid": true,
+     "svg": "furniture/gym/pool.svg",
+     "solidRect": [
+      0,
+      0,
+      80,
+      46
+     ],
+     "spot": {
+      "x": 40.0,
+      "y": 52,
+      "activity": "수영"
+     }
+    },
+    {
+     "key": "track",
+     "label": "달리기 트랙",
+     "footprint": [
+      100,
+      50
+     ],
+     "bbox": [
+      0,
+      0,
+      100,
+      50
+     ],
+     "solid": false,
+     "svg": "furniture/gym/track.svg",
+     "spot": {
+      "x": 50.0,
+      "y": 56,
+      "activity": "달리기"
+     }
+    },
+    {
+     "key": "bike",
+     "label": "실내 자전거",
+     "footprint": [
+      28,
+      30
+     ],
+     "bbox": [
+      2,
+      2,
+      26,
+      29.8
+     ],
+     "solid": true,
+     "svg": "furniture/gym/bike.svg",
+     "solidRect": [
+      0,
+      0,
+      28,
+      30
+     ],
+     "spot": {
+      "x": 14.0,
+      "y": 36,
+      "activity": "사이클"
+     }
+    },
+    {
+     "key": "rowing",
+     "label": "로잉 머신",
+     "footprint": [
+      44,
+      20
+     ],
+     "bbox": [
+      0,
+      6,
+      44,
+      15.6
+     ],
+     "solid": true,
+     "svg": "furniture/gym/rowing.svg",
+     "solidRect": [
+      0,
+      0,
+      44,
+      20
+     ],
+     "spot": {
+      "x": 22.0,
+      "y": 26,
+      "activity": "로잉"
+     }
+    },
+    {
+     "key": "yoga",
+     "label": "요가 매트",
+     "footprint": [
+      46,
+      34
+     ],
+     "bbox": [
+      0,
+      0,
+      46,
+      34
+     ],
+     "solid": false,
+     "svg": "furniture/gym/yoga.svg",
+     "spot": {
+      "x": 23.0,
+      "y": 40,
+      "activity": "요가·스트레칭"
+     }
+    },
+    {
+     "key": "kettle",
+     "label": "케틀벨 랙",
+     "footprint": [
+      40,
+      22
+     ],
+     "bbox": [
+      0,
+      4,
+      40.8,
+      19.8
+     ],
+     "solid": true,
+     "svg": "furniture/gym/kettle.svg",
+     "solidRect": [
+      0,
+      0,
+      40,
+      22
+     ],
+     "spot": {
+      "x": 20.0,
+      "y": 28,
+      "activity": "근력 운동"
+     }
+    },
+    {
+     "key": "lockers",
+     "label": "사물함",
+     "footprint": [
+      44,
+      32
+     ],
+     "bbox": [
+      0,
+      0,
+      44.8,
+      33.8
+     ],
+     "solid": true,
+     "svg": "furniture/gym/lockers.svg",
+     "solidRect": [
+      0,
+      0,
+      44,
+      32
+     ],
+     "spot": {
+      "x": 22.0,
+      "y": 38,
+      "activity": "옷 갈아입기"
+     }
+    },
+    {
+     "key": "benchpress",
+     "label": "벤치프레스",
+     "footprint": [
+      42,
+      32
+     ],
+     "bbox": [
+      -4,
+      2,
+      48,
+      31.8
+     ],
+     "solid": true,
+     "svg": "furniture/gym/benchpress.svg",
+     "solidRect": [
+      0,
+      0,
+      42,
+      32
+     ],
+     "spot": {
+      "x": 21.0,
+      "y": 38,
+      "activity": "근력 운동"
+     }
+    },
+    {
+     "key": "pullup",
+     "label": "철봉",
+     "footprint": [
+      36,
+      34
+     ],
+     "bbox": [
+      0,
+      0,
+      36,
+      35.6
+     ],
+     "solid": true,
+     "svg": "furniture/gym/pullup.svg",
+     "solidRect": [
+      0,
+      0,
+      36,
+      34
+     ],
+     "spot": {
+      "x": 18.0,
+      "y": 40,
+      "activity": "근력 운동"
+     }
+    },
+    {
+     "key": "ring",
+     "label": "복싱 링",
+     "footprint": [
+      72,
+      64
+     ],
+     "bbox": [
+      0,
+      0,
+      72.8,
+      67
+     ],
+     "solid": true,
+     "svg": "furniture/gym/ring.svg",
+     "solidRect": [
+      0,
+      0,
+      72,
+      64
+     ],
+     "spot": {
+      "x": 36.0,
+      "y": 70,
+      "activity": "복싱"
+     }
+    },
+    {
+     "key": "towels",
+     "label": "수건 선반",
+     "footprint": [
+      30,
+      28
+     ],
+     "bbox": [
+      0,
+      0,
+      30.8,
+      29.8
+     ],
+     "solid": true,
+     "svg": "furniture/gym/towels.svg",
+     "solidRect": [
+      0,
+      0,
+      30,
+      28
+     ]
+    },
+    {
+     "key": "scoreboard",
+     "label": "점수판",
+     "footprint": [
+      44,
+      30
+     ],
+     "bbox": [
+      0,
+      0,
+      44,
+      31.6
+     ],
+     "solid": true,
+     "svg": "furniture/gym/scoreboard.svg",
+     "solidRect": [
+      0,
+      0,
+      44,
+      30
+     ]
+    },
+    {
+     "key": "ballrack",
+     "label": "공 거치대",
+     "footprint": [
+      40,
+      26
+     ],
+     "bbox": [
+      0,
+      4.8,
+      40.8,
+      23
+     ],
+     "solid": true,
+     "svg": "furniture/gym/ballrack.svg",
+     "solidRect": [
+      0,
+      0,
+      40,
+      26
+     ]
+    }
+   ]
+  },
+  "park": {
+   "label": "공원",
+   "items": [
+    {
+     "key": "slide",
+     "label": "미끄럼틀",
+     "footprint": [
+      42,
+      40
+     ],
+     "bbox": [
+      0,
+      0,
+      44,
+      42.4
+     ],
+     "solid": true,
+     "svg": "furniture/park/slide.svg",
+     "solidRect": [
+      0,
+      0,
+      42,
+      40
+     ],
+     "spot": {
+      "x": 21.0,
+      "y": 46,
+      "activity": "놀이"
+     }
+    },
+    {
+     "key": "swing",
+     "label": "그네",
+     "footprint": [
+      48,
+      37
+     ],
+     "bbox": [
+      0,
+      0,
+      48,
+      38
+     ],
+     "solid": true,
+     "svg": "furniture/park/swing.svg",
+     "solidRect": [
+      0,
+      0,
+      48,
+      37
+     ],
+     "spot": {
+      "x": 24.0,
+      "y": 43,
+      "activity": "그네 타기"
+     }
+    },
+    {
+     "key": "seesaw",
+     "label": "시소",
+     "footprint": [
+      48,
+      19
+     ],
+     "bbox": [
+      0,
+      -3,
+      48,
+      22.6
+     ],
+     "solid": true,
+     "svg": "furniture/park/seesaw.svg",
+     "solidRect": [
+      0,
+      0,
+      48,
+      19
+     ],
+     "spot": {
+      "x": 24.0,
+      "y": 25,
+      "activity": "놀이"
+     }
+    },
+    {
+     "key": "sandbox",
+     "label": "모래놀이터",
+     "footprint": [
+      44,
+      33
+     ],
+     "bbox": [
+      0,
+      0,
+      44.8,
+      34.8
+     ],
+     "solid": false,
+     "svg": "furniture/park/sandbox.svg",
+     "spot": {
+      "x": 22.0,
+      "y": 39,
+      "activity": "놀이"
+     }
+    },
+    {
+     "key": "picnic",
+     "label": "피크닉 테이블",
+     "footprint": [
+      44,
+      35
+     ],
+     "bbox": [
+      0,
+      0,
+      44.8,
+      36
+     ],
+     "solid": true,
+     "svg": "furniture/park/picnic.svg",
+     "solidRect": [
+      0,
+      0,
+      44,
+      35
+     ],
+     "spot": {
+      "x": 22.0,
+      "y": 41,
+      "activity": "피크닉"
+     }
+    },
+    {
+     "key": "gazebo",
+     "label": "정자",
+     "footprint": [
+      60,
+      60
+     ],
+     "bbox": [
+      0,
+      2,
+      60,
+      59
+     ],
+     "solid": true,
+     "svg": "furniture/park/gazebo.svg",
+     "solidRect": [
+      0,
+      0,
+      60,
+      60
+     ],
+     "spot": {
+      "x": 30.0,
+      "y": 66,
+      "activity": "쉬기"
+     }
+    },
+    {
+     "key": "arch",
+     "label": "꽃 아치",
+     "footprint": [
+      44,
+      41
+     ],
+     "bbox": [
+      0,
+      -2.5,
+      44,
+      44.1
+     ],
+     "solid": false,
+     "svg": "furniture/park/arch.svg"
+    },
+    {
+     "key": "bikerack",
+     "label": "자전거 거치대",
+     "footprint": [
+      44,
+      26
+     ],
+     "bbox": [
+      0,
+      8,
+      45,
+      19.4
+     ],
+     "solid": true,
+     "svg": "furniture/park/bikerack.svg",
+     "solidRect": [
+      0,
+      0,
+      44,
+      26
+     ],
+     "spot": {
+      "x": 22.0,
+      "y": 32,
+      "activity": "자전거"
+     }
+    },
+    {
+     "key": "icecream",
+     "label": "아이스크림 카트",
+     "footprint": [
+      36,
+      35
+     ],
+     "bbox": [
+      -4,
+      -2,
+      40.8,
+      38
+     ],
+     "solid": true,
+     "svg": "furniture/park/icecream.svg",
+     "solidRect": [
+      0,
+      0,
+      36,
+      35
+     ],
+     "spot": {
+      "x": 18.0,
+      "y": 41,
+      "activity": "간식"
+     }
+    },
+    {
+     "key": "drinking",
+     "label": "음수대",
+     "footprint": [
+      16,
+      26
+     ],
+     "bbox": [
+      0,
+      2.9,
+      16,
+      24.5
+     ],
+     "solid": true,
+     "svg": "furniture/park/drinking.svg",
+     "solidRect": [
+      0,
+      0,
+      16,
+      26
+     ]
+    },
+    {
+     "key": "trash",
+     "label": "분리수거함",
+     "footprint": [
+      16,
+      23
+     ],
+     "bbox": [
+      0,
+      3.4,
+      16,
+      20
+     ],
+     "solid": true,
+     "svg": "furniture/park/trash.svg",
+     "solidRect": [
+      0,
+      0,
+      16,
+      23
+     ]
+    },
+    {
+     "key": "signpost",
+     "label": "이정표",
+     "footprint": [
+      32,
+      32
+     ],
+     "bbox": [
+      -14,
+      2,
+      46,
+      31.2
+     ],
+     "solid": true,
+     "svg": "furniture/park/signpost.svg",
+     "solidRect": [
+      0,
+      0,
+      32,
+      32
+     ]
+    },
+    {
+     "key": "junglegym",
+     "label": "정글짐",
+     "footprint": [
+      48,
+      37
+     ],
+     "bbox": [
+      -2,
+      -4,
+      52,
+      42
+     ],
+     "solid": true,
+     "svg": "furniture/park/junglegym.svg",
+     "solidRect": [
+      0,
+      0,
+      48,
+      37
+     ],
+     "spot": {
+      "x": 24.0,
+      "y": 43,
+      "activity": "놀이"
+     }
+    },
+    {
+     "key": "duckpond",
+     "label": "오리 연못",
+     "footprint": [
+      52,
+      27
+     ],
+     "bbox": [
+      0,
+      6,
+      52,
+      20
+     ],
+     "solid": true,
+     "svg": "furniture/park/duckpond.svg",
+     "solidRect": [
+      0,
+      0,
+      52,
+      27
+     ],
+     "spot": {
+      "x": 26.0,
+      "y": 33,
+      "activity": "오리 구경"
+     }
+    }
+   ]
+  }
+ },
+ "scenery": {
+  "city": {
+   "label": "콘크리트 도시",
+   "items": [
+    {
+     "key": "tower_glass",
+     "label": "고층빌딩(유리)",
+     "bbox": [
+      -2,
+      -182.6,
+      70,
+      184.6
+     ],
+     "anchor": "bottom-left",
+     "svg": "scenery/city/tower_glass.svg"
+    },
+    {
+     "key": "tower_brick",
+     "label": "아파트",
+     "bbox": [
+      -2,
+      -128,
+      62,
+      130
+     ],
+     "anchor": "bottom-left",
+     "svg": "scenery/city/tower_brick.svg"
+    },
+    {
+     "key": "tower_office",
+     "label": "오피스 빌딩",
+     "bbox": [
+      -2,
+      -148,
+      80,
+      150
+     ],
+     "anchor": "bottom-left",
+     "svg": "scenery/city/tower_office.svg"
+    },
+    {
+     "key": "car",
+     "label": "승용차(가로)",
+     "bbox": [
+      -20,
+      -19,
+      40,
+      22
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/car.svg"
+    },
+    {
+     "key": "taxi",
+     "label": "택시",
+     "bbox": [
+      -20,
+      -22,
+      40,
+      25
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/taxi.svg"
+    },
+    {
+     "key": "bus",
+     "label": "버스",
+     "bbox": [
+      -28,
+      -20,
+      56,
+      23
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/bus.svg"
+    },
+    {
+     "key": "truck",
+     "label": "택배 트럭",
+     "bbox": [
+      -26,
+      -22,
+      52,
+      25
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/truck.svg"
+    },
+    {
+     "key": "car_front",
+     "label": "승용차(세로·앞)",
+     "bbox": [
+      -9,
+      -18,
+      18,
+      20.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/car_front.svg"
+    },
+    {
+     "key": "car_back",
+     "label": "승용차(세로·뒤)",
+     "bbox": [
+      -9,
+      -18,
+      18,
+      20.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/car_back.svg"
+    },
+    {
+     "key": "foodtruck",
+     "label": "푸드트럭",
+     "bbox": [
+      -28,
+      -26.4,
+      58,
+      29.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/foodtruck.svg"
+    },
+    {
+     "key": "subway",
+     "label": "지하철 입구",
+     "bbox": [
+      -18,
+      -22,
+      36,
+      24
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/subway.svg"
+    },
+    {
+     "key": "billboard",
+     "label": "광고판",
+     "bbox": [
+      -20,
+      -44,
+      40,
+      45.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/billboard.svg"
+    },
+    {
+     "key": "kiosk",
+     "label": "가판대",
+     "bbox": [
+      -11,
+      -24,
+      22,
+      25.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/kiosk.svg"
+    },
+    {
+     "key": "hydrant",
+     "label": "소화전",
+     "bbox": [
+      -5,
+      -11.4,
+      10,
+      12.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/hydrant.svg"
+    },
+    {
+     "key": "trashcan",
+     "label": "쓰레기통",
+     "bbox": [
+      -4.2,
+      -11.6,
+      8.4,
+      12.8
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/trashcan.svg"
+    },
+    {
+     "key": "pigeons",
+     "label": "비둘기 떼",
+     "bbox": [
+      -10.6,
+      -6.5,
+      24.6,
+      8.9
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/pigeons.svg"
+    },
+    {
+     "key": "cone",
+     "label": "공사 콘",
+     "bbox": [
+      -4,
+      -10,
+      8,
+      11
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/cone.svg"
+    },
+    {
+     "key": "phonebooth",
+     "label": "공중전화",
+     "bbox": [
+      -7,
+      -28,
+      14,
+      29.4
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/city/phonebooth.svg"
+    }
+   ]
+  },
+  "forest": {
+   "label": "숲속 마을",
+   "items": [
+    {
+     "key": "stream",
+     "label": "계곡 물줄기",
+     "bbox": [
+      0,
+      -0.8,
+      160,
+      35.6
+     ],
+     "anchor": "top-left",
+     "svg": "scenery/forest/stream.svg"
+    },
+    {
+     "key": "waterfall",
+     "label": "작은 폭포",
+     "bbox": [
+      -26,
+      -47.1,
+      54,
+      52.1
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/waterfall.svg"
+    },
+    {
+     "key": "bridge",
+     "label": "나무 다리",
+     "bbox": [
+      -26,
+      -12,
+      52,
+      18
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/bridge.svg"
+    },
+    {
+     "key": "meadow",
+     "label": "꽃밭",
+     "bbox": [
+      -30,
+      -13,
+      60,
+      26
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/meadow.svg"
+    },
+    {
+     "key": "fox",
+     "label": "여우",
+     "bbox": [
+      -13.7,
+      -12.6,
+      23.7,
+      14
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/fox.svg"
+    },
+    {
+     "key": "bearcub",
+     "label": "아기 곰",
+     "bbox": [
+      -8,
+      -21,
+      16,
+      22.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/bearcub.svg"
+    },
+    {
+     "key": "owl",
+     "label": "부엉이(그루터기)",
+     "bbox": [
+      -6,
+      -20.6,
+      12,
+      22
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/owl.svg"
+    },
+    {
+     "key": "ducks",
+     "label": "오리 가족",
+     "bbox": [
+      -13,
+      -6.8,
+      27.1,
+      6.8
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/ducks.svg"
+    },
+    {
+     "key": "butterflies",
+     "label": "나비",
+     "bbox": [
+      -10,
+      -17.3,
+      23.4,
+      14.3
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/butterflies.svg"
+    },
+    {
+     "key": "hedgehog",
+     "label": "고슴도치",
+     "bbox": [
+      -6,
+      -9.1,
+      14.8,
+      10.3
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/hedgehog.svg"
+    },
+    {
+     "key": "tent",
+     "label": "텐트",
+     "bbox": [
+      -24,
+      -28,
+      48,
+      30.4
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/tent.svg"
+    },
+    {
+     "key": "campfire",
+     "label": "모닥불",
+     "bbox": [
+      -14,
+      -16,
+      29,
+      19
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/campfire.svg"
+    },
+    {
+     "key": "fireflies",
+     "label": "반딧불이",
+     "bbox": [
+      -12.4,
+      -22.4,
+      24.8,
+      18.8
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/fireflies.svg"
+    },
+    {
+     "key": "birdhouse",
+     "label": "새집",
+     "bbox": [
+      -6.6,
+      -32.4,
+      13.2,
+      33.4
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/birdhouse.svg"
+    },
+    {
+     "key": "berrybush",
+     "label": "산딸기 덤불",
+     "bbox": [
+      -10,
+      -14,
+      20,
+      16
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/forest/berrybush.svg"
+    }
+   ]
+  },
+  "coast": {
+   "label": "해안 도시",
+   "items": [
+    {
+     "key": "lighthouse",
+     "label": "등대",
+     "bbox": [
+      -40,
+      -83.4,
+      80,
+      91.4
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/lighthouse.svg"
+    },
+    {
+     "key": "fishboat",
+     "label": "고기잡이 배",
+     "bbox": [
+      -26,
+      -34,
+      52,
+      39
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/fishboat.svg"
+    },
+    {
+     "key": "sailboat",
+     "label": "돛단배",
+     "bbox": [
+      -16,
+      -40,
+      34,
+      44.4
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/sailboat.svg"
+    },
+    {
+     "key": "pier",
+     "label": "나무 부두",
+     "bbox": [
+      -5,
+      -18,
+      28,
+      72
+     ],
+     "anchor": "top-left",
+     "svg": "scenery/coast/pier.svg"
+    },
+    {
+     "key": "lifeguard",
+     "label": "인명구조 망루",
+     "bbox": [
+      -12,
+      -36,
+      24,
+      38
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/lifeguard.svg"
+    },
+    {
+     "key": "crab",
+     "label": "꽃게",
+     "bbox": [
+      -9.8,
+      -8.3,
+      19.6,
+      9.5
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/crab.svg"
+    },
+    {
+     "key": "shells",
+     "label": "불가사리·조개",
+     "bbox": [
+      -9.8,
+      -8,
+      19.8,
+      10
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/shells.svg"
+    },
+    {
+     "key": "buoy",
+     "label": "부표",
+     "bbox": [
+      -7,
+      -15.6,
+      14,
+      18.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/buoy.svg"
+    },
+    {
+     "key": "fishcrates",
+     "label": "생선 상자·그물",
+     "bbox": [
+      -12,
+      -18,
+      38,
+      20.8
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/fishcrates.svg"
+    },
+    {
+     "key": "fishstall",
+     "label": "수산 가판",
+     "bbox": [
+      -22,
+      -30,
+      44,
+      37.8
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/fishstall.svg"
+    },
+    {
+     "key": "volleyball",
+     "label": "비치발리볼 네트",
+     "bbox": [
+      -22,
+      -31,
+      44,
+      33
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/volleyball.svg"
+    },
+    {
+     "key": "beachhut",
+     "label": "비치 오두막",
+     "bbox": [
+      -15,
+      -32,
+      30,
+      34
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/beachhut.svg"
+    },
+    {
+     "key": "kayak",
+     "label": "카약",
+     "bbox": [
+      -20,
+      -12,
+      40,
+      18
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/kayak.svg"
+    },
+    {
+     "key": "towel",
+     "label": "비치 타월",
+     "bbox": [
+      -12,
+      -6,
+      25,
+      12
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/coast/towel.svg"
+    }
+   ]
+  },
+  "village": {
+   "label": "시골 마을",
+   "items": [
+    {
+     "key": "field_cabbage",
+     "label": "배추밭",
+     "bbox": [
+      0,
+      0,
+      80,
+      40
+     ],
+     "anchor": "top-left",
+     "svg": "scenery/village/field_cabbage.svg"
+    },
+    {
+     "key": "field_carrot",
+     "label": "당근밭",
+     "bbox": [
+      0,
+      0,
+      64,
+      32
+     ],
+     "anchor": "top-left",
+     "svg": "scenery/village/field_carrot.svg"
+    },
+    {
+     "key": "field_wheat",
+     "label": "밀밭",
+     "bbox": [
+      0,
+      -2.8,
+      80,
+      42.8
+     ],
+     "anchor": "top-left",
+     "svg": "scenery/village/field_wheat.svg"
+    },
+    {
+     "key": "barn",
+     "label": "빨간 헛간",
+     "bbox": [
+      -30,
+      -46,
+      60,
+      49
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/barn.svg"
+    },
+    {
+     "key": "windmill",
+     "label": "풍차",
+     "bbox": [
+      -19.8,
+      -61.8,
+      39.6,
+      63.8
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/windmill.svg"
+    },
+    {
+     "key": "chicken",
+     "label": "닭",
+     "bbox": [
+      -6,
+      -11,
+      21.6,
+      14
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/chicken.svg"
+    },
+    {
+     "key": "cow",
+     "label": "젖소",
+     "bbox": [
+      -13.2,
+      -19,
+      30.3,
+      21
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/cow.svg"
+    },
+    {
+     "key": "sheep",
+     "label": "양",
+     "bbox": [
+      -8.4,
+      -13,
+      19,
+      14.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/sheep.svg"
+    },
+    {
+     "key": "pumpkins",
+     "label": "호박밭",
+     "bbox": [
+      -14,
+      -10.4,
+      32,
+      11.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/pumpkins.svg"
+    },
+    {
+     "key": "jangdok",
+     "label": "장독대",
+     "bbox": [
+      -22,
+      -21.5,
+      44,
+      24.5
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/jangdok.svg"
+    },
+    {
+     "key": "beehive",
+     "label": "벌통",
+     "bbox": [
+      -12.2,
+      -24,
+      25.4,
+      25.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/beehive.svg"
+    },
+    {
+     "key": "tractor",
+     "label": "트랙터",
+     "bbox": [
+      -18,
+      -24,
+      36,
+      27
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/tractor.svg"
+    },
+    {
+     "key": "laundry",
+     "label": "빨랫줄",
+     "bbox": [
+      -22,
+      -24,
+      44,
+      25.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/laundry.svg"
+    },
+    {
+     "key": "mailbox",
+     "label": "우체통",
+     "bbox": [
+      -6,
+      -22,
+      16,
+      23
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/mailbox.svg"
+    },
+    {
+     "key": "stepstones",
+     "label": "징검다리",
+     "bbox": [
+      -23.6,
+      -2,
+      47.2,
+      6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/stepstones.svg"
+    },
+    {
+     "key": "persimmon",
+     "label": "감나무",
+     "bbox": [
+      -13.2,
+      -30.1,
+      26.4,
+      33.6
+     ],
+     "anchor": "bottom-center",
+     "svg": "scenery/village/persimmon.svg"
+    }
+   ]
+  }
+ },
+ "rooms": {
+  "home": {
+   "size": "l",
+   "items": [
+    {
+     "k": "kitchen",
+     "x": 92,
+     "y": 16
+    },
+    {
+     "k": "fridge",
+     "x": 142,
+     "y": 8
+    },
+    {
+     "k": "wardrobe",
+     "x": 270,
+     "y": 4
+    },
+    {
+     "k": "tv",
+     "x": 190,
+     "y": 14
+    },
+    {
+     "k": "dinette",
+     "x": 92,
+     "y": 52
+    },
+    {
+     "k": "armchair",
+     "x": 216,
+     "y": 92
+    },
+    {
+     "k": "floorsit",
+     "x": 150,
+     "y": 116
+    },
+    {
+     "k": "monstera",
+     "x": 240,
+     "y": 14
+    },
+    {
+     "k": "piano",
+     "x": 18,
+     "y": 120
+    },
+    {
+     "k": "aquarium",
+     "x": 18,
+     "y": 46
+    },
+    {
+     "k": "clothes",
+     "x": 276,
+     "y": 70
+    }
+   ]
+  },
+  "work": {
+   "size": "l",
+   "items": [
+    {
+     "k": "whiteboard",
+     "x": 16,
+     "y": 6
+    },
+    {
+     "k": "projector",
+     "x": 120,
+     "y": 4
+    },
+    {
+     "k": "cabinet",
+     "x": 62,
+     "y": 8
+    },
+    {
+     "k": "printer",
+     "x": 84,
+     "y": 14
+    },
+    {
+     "k": "cooler",
+     "x": 204,
+     "y": 4
+    },
+    {
+     "k": "mailshelf",
+     "x": 280,
+     "y": 6
+    },
+    {
+     "k": "partition",
+     "x": 16,
+     "y": 52
+    },
+    {
+     "k": "partition",
+     "x": 64,
+     "y": 52
+    },
+    {
+     "k": "pcdesk",
+     "x": 128,
+     "y": 54
+    },
+    {
+     "k": "standing",
+     "x": 190,
+     "y": 50
+    },
+    {
+     "k": "meeting",
+     "x": 236,
+     "y": 92
+    },
+    {
+     "k": "lounge",
+     "x": 16,
+     "y": 126
+    },
+    {
+     "k": "coffee",
+     "x": 120,
+     "y": 130
+    },
+    {
+     "k": "officechair",
+     "x": 160,
+     "y": 96
+    }
+   ]
+  },
+  "cafe": {
+   "size": "l",
+   "items": [
+    {
+     "k": "espresso",
+     "x": 150,
+     "y": 18
+    },
+    {
+     "k": "pastry",
+     "x": 194,
+     "y": 20
+    },
+    {
+     "k": "pos",
+     "x": 238,
+     "y": 24
+    },
+    {
+     "k": "coldbrew",
+     "x": 268,
+     "y": 24
+    },
+    {
+     "k": "beans",
+     "x": 120,
+     "y": 44
+    },
+    {
+     "k": "barstools",
+     "x": 14,
+     "y": 40
+    },
+    {
+     "k": "roundset",
+     "x": 20,
+     "y": 82
+    },
+    {
+     "k": "roundset",
+     "x": 90,
+     "y": 74
+    },
+    {
+     "k": "booth",
+     "x": 160,
+     "y": 112
+    },
+    {
+     "k": "plantshelf",
+     "x": 280,
+     "y": 74
+    },
+    {
+     "k": "board",
+     "x": 232,
+     "y": 108
+    },
+    {
+     "k": "cakestand",
+     "x": 210,
+     "y": 78
+    },
+    {
+     "k": "takeout",
+     "x": 20,
+     "y": 132
+    }
+   ]
+  },
+  "dining": {
+   "size": "l",
+   "items": [
+    {
+     "k": "kitchenpass",
+     "x": 110,
+     "y": 16
+    },
+    {
+     "k": "stove",
+     "x": 172,
+     "y": 16
+    },
+    {
+     "k": "winerack",
+     "x": 234,
+     "y": 6
+    },
+    {
+     "k": "host",
+     "x": 270,
+     "y": 40
+    },
+    {
+     "k": "roundtable",
+     "x": 30,
+     "y": 60
+    },
+    {
+     "k": "roundtable",
+     "x": 120,
+     "y": 92
+    },
+    {
+     "k": "booth",
+     "x": 200,
+     "y": 70
+    },
+    {
+     "k": "saladbar",
+     "x": 20,
+     "y": 128
+    },
+    {
+     "k": "dessertcart",
+     "x": 270,
+     "y": 120
+    },
+    {
+     "k": "highchair",
+     "x": 180,
+     "y": 126
+    },
+    {
+     "k": "fishtank",
+     "x": 60,
+     "y": 6
+    },
+    {
+     "k": "grill",
+     "x": 226,
+     "y": 130
+    }
+   ]
+  },
+  "gym": {
+   "size": "l",
+   "items": [
+    {
+     "k": "scoreboard",
+     "x": 120,
+     "y": 4
+    },
+    {
+     "k": "treadmill",
+     "x": 14,
+     "y": 14
+    },
+    {
+     "k": "treadmill",
+     "x": 48,
+     "y": 14
+    },
+    {
+     "k": "bike",
+     "x": 84,
+     "y": 22
+    },
+    {
+     "k": "lockers",
+     "x": 196,
+     "y": 6
+    },
+    {
+     "k": "towels",
+     "x": 280,
+     "y": 60
+    },
+    {
+     "k": "pool",
+     "x": 16,
+     "y": 74
+    },
+    {
+     "k": "yoga",
+     "x": 110,
+     "y": 76
+    },
+    {
+     "k": "benchpress",
+     "x": 170,
+     "y": 64
+    },
+    {
+     "k": "kettle",
+     "x": 228,
+     "y": 52
+    },
+    {
+     "k": "pullup",
+     "x": 232,
+     "y": 96
+    },
+    {
+     "k": "rowing",
+     "x": 110,
+     "y": 130
+    },
+    {
+     "k": "ballrack",
+     "x": 176,
+     "y": 134
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,15 @@
+/* ===== 하루로그 말풍선 · 이름표 (bubble.css) ===== */
+.tag{display:inline-flex;align-items:center;gap:4px;padding:2px 8px;border-radius:999px;background:rgba(59,49,40,.78);color:#fff;font:600 12px/1.5 'Gowun Dodum',system-ui,sans-serif;white-space:nowrap;box-shadow:0 1px 0 rgba(0,0,0,.12)}
+.tag.pet{background:var(--brown,#8A5A3C);padding-left:6px}
+.tag.pet::before{content:"";width:11px;height:11px;flex:none;background:no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cg fill='%23FFE7C7'%3E%3Cellipse cx='6' cy='8.2' rx='2.6' ry='2.1'/%3E%3Ccircle cx='2.4' cy='5' r='1.2'/%3E%3Ccircle cx='4.6' cy='3' r='1.2'/%3E%3Ccircle cx='7.4' cy='3' r='1.2'/%3E%3Ccircle cx='9.6' cy='5' r='1.2'/%3E%3C/g%3E%3C/svg%3E")}
+.tag.say{position:relative;max-width:240px;white-space:normal;padding:6px 11px;border-radius:14px;background:#FFFDF6;color:var(--ink,#3B3128);border:1.5px solid #3B3128;font:500 13px/1.4 'Gowun Dodum',system-ui,sans-serif;box-shadow:0 2px 0 rgba(59,49,40,.18);transform-origin:50% calc(100% + 7px);animation:say-pop .42s cubic-bezier(.2,1.4,.4,1) both}
+.tag.say::after{content:"";position:absolute;left:50%;bottom:-6px;width:9px;height:9px;margin-left:-5px;background:inherit;border-right:1.5px solid #3B3128;border-bottom:1.5px solid #3B3128;transform:rotate(45deg);border-bottom-right-radius:2px}
+.tag.say .mood{display:inline-block;width:14px;height:14px;vertical-align:-2px;margin-right:4px}
+.tag.say.happy{background:#FFF4D6;border-color:#C9962E}.tag.say.happy::after{border-color:#C9962E}
+.tag.say.tired{background:#EEF1F6;border-color:#7D8899;color:#4F5866;animation:say-pop .5s ease-out both,say-sway 2.4s ease-in-out .5s infinite}.tag.say.tired::after{border-color:#7D8899}
+.tag.say.excited{background:#FFE6EA;border-color:#D9536F;animation:say-pop .42s cubic-bezier(.2,1.4,.4,1) both,say-wiggle .9s ease-in-out .42s 2}.tag.say.excited::after{border-color:#D9536F}
+.tag.say.food{background:#FFF1E4;border-color:#C9734E}.tag.say.food::after{border-color:#C9734E}
+@keyframes say-pop{0%{opacity:0;transform:translateY(6px) scale(.4)}60%{opacity:1;transform:translateY(-2px) scale(1.08)}100%{opacity:1;transform:none}}
+@keyframes say-wiggle{0%,100%{transform:rotate(0)}25%{transform:rotate(-3deg)}75%{transform:rotate(3deg)}}
+@keyframes say-sway{0%,100%{transform:translateY(0)}50%{transform:translateY(2px)}}
+@media (prefers-reduced-motion:reduce){.tag.say{animation:none!important}}
