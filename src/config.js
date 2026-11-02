@@ -4,6 +4,6 @@
 //  - supabaseAnonKey: "anon public" 또는 "Publishable key"(sb_publishable_…) (공개용 키라 앱에 들어가도 괜찮아요. 데이터는 RLS 규칙으로 보호돼요)
 // ⚠ "service_role" 키나 "Secret key"(sb_secret_…)는 절대 넣지 마세요. 그 키는 모든 데이터를 열 수 있어요.
 window.HARU_CONFIG = {
-  supabaseUrl: '',
-  supabaseAnonKey: '',
+  supabaseUrl: 'https://kgnwolyxaozsaldnzgud.supabase.co',
+  supabaseAnonKey: 'sb_publishable_nRwJ6alu85vIc7LpG5s61w_LDQ6on2y',
 };
