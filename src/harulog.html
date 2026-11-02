@@ -6075,8 +6075,8 @@ const CFG = window.HARU_CONFIG || {};
 const SB_URL = typeof CFG.supabaseUrl === 'string' && /^https:\/\/[a-z0-9-]+\.supabase\.co$/.test(CFG.supabaseUrl.replace(/\/$/, '')) ? CFG.supabaseUrl.replace(/\/$/, '') : '';
 // 실수로 service_role(관리자) 키를 넣었으면 쓰지 않는다 — 그 키는 모든 데이터를 열 수 있다
 const keyRole = k => { try { return JSON.parse(atob(k.split('.')[1].replace(/-/g, '+').replace(/_/g, '/'))).role || ''; } catch (e) { return ''; } };
-const SB_KEY = typeof CFG.supabaseAnonKey === 'string' && keyRole(CFG.supabaseAnonKey) !== 'service_role' ? CFG.supabaseAnonKey : '';
-if (CFG.supabaseAnonKey && !SB_KEY) console.error('하루로그: service_role 키는 앱에 넣으면 안 돼요. anon public 키를 넣어 주세요.');
+const SB_KEY = typeof CFG.supabaseAnonKey === 'string' && keyRole(CFG.supabaseAnonKey) !== 'service_role' && !CFG.supabaseAnonKey.startsWith('sb_secret_') ? CFG.supabaseAnonKey : '';
+if (CFG.supabaseAnonKey && !SB_KEY) console.error('하루로그: service_role/secret 키는 앱에 넣으면 안 돼요. anon(publishable) 키를 넣어 주세요.');
 const SB_ON = !!(SB_URL && SB_KEY);
 const AUTH_KEY = 'harulog.auth', BACKUP_KEEP = 10, BACKUP_MAX = 5*1024*1024;
 let auth = null, acctBusy = false, acctList = null, acctMsg = '';

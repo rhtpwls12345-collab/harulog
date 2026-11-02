@@ -50,4 +50,7 @@
   - 가짜 서버로 테스트 완료: `test/account.test.js`
 - [완료] 보안 점검 → `SECURITY.md`, CSP 추가, `.gitignore` 정리
 - [준비] GitHub Pages 자동 배포: `.github/workflows/pages.yml`
-- [대기] 사용자: Supabase 프로젝트 만들기, GitHub 저장소에 올리기(GitHub Desktop), Pages 켜기
+- [완료] GitHub 저장소: https://github.com/rhtpwls12345-collab/harulog (작업 폴더: 바탕화면 `창업가 캠프 수업\하루로그\harulog-app (2차 프로젝트)`)
+- [완료] 웹 배포: https://rhtpwls12345-collab.github.io/harulog/ (main에 Push하면 자동 배포)
+- [완료] Supabase 프로젝트 kgnwolyxaozsaldnzgud (서울), backups 테이블·RLS 실행, `src/config.js`에 URL·publishable 키 입력
+- [대기] 사용자: Push 후 배포 사이트에서 회원가입 → 백업 → 복구 실제 확인 (이 작업 환경에서는 supabase.co 접속이 막혀 직접 확인 불가)
